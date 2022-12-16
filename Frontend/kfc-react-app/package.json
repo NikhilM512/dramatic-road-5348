@@ -13,6 +13,7 @@
     "firebase": "^9.15.0",
     "framer-motion": "^7.10.0",
     "react": "^18.2.0",
+    "react-code-input": "^3.10.1",
     "react-dom": "^18.2.0",
     "react-phone-number-input": "^3.2.13",
     "react-router-dom": "^6.4.5",

@@ -29,6 +29,7 @@ line-height:15px;
     border-bottom: 1px solid black;
     font-size: 15px;
     padding: 5px;
+    margin-top: 15px;
 }
 .numberbox:focus{
     outline: none;
@@ -38,17 +39,42 @@ line-height:15px;
     text-align: left;
 }
 .sendbox{
-    width: 200px;
+    /* width: 200px;
     padding: 10px;
     background-color: rgb(48, 47, 47);
     color: white;
-    border-radius: 30px;
+    border-radius: 30px; */
+    height: 44px;
+    padding: 10px 40px;
+    color: #ffffff;
+    font-size: 13px;
+    background-color: #202124;
+    border: none;
+    outline: none;
+    border-radius: 200px;
+    cursor: pointer;
 }
 .skipbox{
-    border: 1px solid black;
+    /* border: 1px solid black;
     border-radius: 30px;
     padding: 10px;
     line-height: 30px;
     width: 100%;
-    margin-top: 15px;
+    margin-top: 15px; */
+    width: 100%;
+    background: #ffffff;
+    color: #202124;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 30px;
+    align-items: center;
+    text-align: center;
+    outline: none;
+    border-radius: 66px;
+    border: 1px solid #202124;
+    font-family: 'National 2 Regular';
+    padding: 8px 40px;
+    cursor: pointer;
+    margin-top: 20px;
 }
