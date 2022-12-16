@@ -31,15 +31,15 @@ export const Menu=()=>{
                     </Grid>
                     <Heading mb="5%" mt="5%" fontSize={["22px","25px","30px","33px"]}>KFC MENU</Heading>
                     <VStack fontSize={["10px","12px","14px","18px"]} fontWeight="500" align="start" w="80%" display="flex" flexWrap="wrap-reverse" margin="auto" color="gray.600" border="1px solid red">
-                        <Text >Exclusive Deal</Text>
-                        <Text >Chicken Buckets</Text>
-                        <Text >New Launch</Text>
-                        <Text >Biryani Buckets</Text>
-                        <Text >Box Meals</Text>
-                        <Text>Burgers</Text>
-                        <Text>Stay Home Specials</Text>
-                        <Text>Snacks</Text>
-                        <Text>Beverages</Text>
+                    <Text> <a href="#ExclusiveDeal-sec"> Exclusive Deal </a> </Text>
+                            <Text> <a href="#ChickenBuckets-sec"> Chicken Buckets </a> </Text>
+                            <Text> <a href="#NewLaunch-sec"> New Launch </a> </Text>
+                            <Text> <a href="#BiryaniBuckets-sec"> Biryani Buckets </a> </Text>
+                            <Text> <a href="#BoxMeals-sec"> Box Meals </a> </Text>
+                            <Text> <a href="#Burgers-sec"> Burgers </a> </Text>
+                            <Text> <a href="#StayHomeSpecials-sec"> Stay Home Specials </a> </Text>
+                            <Text> <a href="#Snacks-sec"> Snacks </a> </Text>
+                            <Text> <a href="#Beverages-sec"> Beverages </a> </Text>
                     </VStack>
                  </Box>
                  <Box w="70%"  color="black" >

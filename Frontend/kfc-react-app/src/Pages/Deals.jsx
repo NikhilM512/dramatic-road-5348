@@ -1,9 +1,9 @@
+
 import { Box, Button, Flex, Grid, Heading, HStack, Image, SimpleGrid, Stack, Text, VStack } from "@chakra-ui/react"
 import { useState } from "react"
 import { Navigate, useNavigate } from "react-router-dom";
 import bgImage from "../DealsPageWallpaper.jpg"
 import { Menu } from "./Menu";
-
 
 export const Deals=()=>{
     const Navi=useNavigate()
@@ -15,28 +15,57 @@ export const Deals=()=>{
 
     return(
         <Box w="100%" >
-            <HStack h="77px" w="100%" bg="black" color="white" display="flex" justifyContent="center" alignItems="center">
-                    <Text fontWeight="bold">LET'S ORDER FOR DELIVERY, PICK UP, OR DINE-IN</Text>
-                    <Button borderRadius="44px" _hover={{backgroundColor:"red"}} ml="7px" bg="red">Start Order</Button>
+            <HStack h="77px"
+             w="100%" 
+             bg="black"
+             color="white" 
+             display="flex" 
+             justifyContent="center" 
+             alignItems="center">
+                    <Text 
+                    fontWeight="bold">
+                        LET'S ORDER FOR DELIVERY, PICK UP, OR DINE-IN
+                    </Text>
+                    <Button 
+                    borderRadius="44px" 
+                    _hover={{backgroundColor:"red"}} 
+                    ml="7px" 
+                    bg="red">
+                        Start Order
+                    </Button>
             </HStack> 
-            <Box  style={{backgroundImage:'Url("https://i.postimg.cc/nh1trRv3/Licious-Login-Background-Img.jpg")',backgroundRepeat:"no-repeat",
-                backgroundSize: "cover"}} color='white'>
-                <Heading p="2%" >DEALS & OFFERS</Heading>
+            <Box  
+                style={{backgroundImage:'Url("https://i.postimg.cc/nh1trRv3/Licious-Login-Background-Img.jpg")',
+                backgroundRepeat:"no-repeat",
+                backgroundSize: "cover"}} 
+                color='white'>
+                <Heading p="2%" >
+                    DEALS & OFFERS
+                </Heading>
                 <Box w="100%">
-                <Image src="https://content3.jdmagicbox.com/comp/delhi/t3/011pxx11.xx11.190820133334.t8t3/catalogue/kgf-darya-ganj-delhi-fast-food-2nagj1r7ki.jpg"
-                  h="100%"
-                  w="100%">
-                  </Image>
-                  </Box>
+                    <Image 
+                    src="https://content3.jdmagicbox.com/comp/delhi/t3/011pxx11.xx11.190820133334.t8t3/catalogue/kgf-darya-ganj-delhi-fast-food-2nagj1r7ki.jpg"
+                    h="100%"
+                    w="100%">
+                    </Image>
+                </Box>
             </Box>
-            <Box w="70%" margin="auto">
-                <Grid margin='auto' mb="5%" w={["33px","44px","55px","66px"]} h={["18px","23px","28px","33px"]}  gap="17%" gridTemplateColumns="repeat(3,1fr)">
-                    <Box h="100%" bg="red"></Box>
-                    <Box h="100%" bg="red"></Box>
-                    <Box h="100%" bg="red"></Box>
+            <Box 
+            w="70%" 
+            margin="auto">
+                <Grid 
+                    margin='auto' 
+                    mb="5%" 
+                    w={["33px","44px","55px","66px"]} h={["18px","23px","28px","33px"]}  gap="17%" gridTemplateColumns="repeat(3,1fr)">
+                        <Box h="100%" bg="red"></Box>
+                        <Box h="100%" bg="red"></Box>
+                        <Box h="100%" bg="red"></Box>
                 </Grid>
-                <Flex mb={["5%","5%","5%","2%"]} display="flex" flexDirection={["column","column","column","row"]} justifyContent={{lg:"space-between"}}>
-                    {/* <Box>Hiiii</Box> */}
+                <Flex 
+                mb={["5%","5%","5%","2%"]} 
+                display="flex" 
+                flexDirection={["column","column","column","row"]} 
+                justifyContent={{lg:"space-between"}}>
                     <Heading display="block">OFFERS FOR YOU</Heading>
                     <Text textDecoration="underline" display="block">Sign In to see exclusive offers & deals</Text>
                 </Flex>
@@ -126,9 +155,7 @@ export const Deals=()=>{
                         </HStack>
                     </Box>
                 </SimpleGrid>
-                </Box>
-                
+                </Box>  
         </Box>
-        
     )
 }
