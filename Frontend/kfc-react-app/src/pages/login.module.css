@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@500&display=swap');
+.container{
+    text-align: center;
+    width:40%;
+    margin: auto;
+    margin-top: 5%;
+    padding: 35px;
+}
+.container>div{
+display: flex;
+flex-direction: column; 
+align-items:center ;
+line-height:15px;
+}
+
+.title{
+    font-family: 'Barlow Condensed', sans-serif;
+     font-size: 25px;
+     font-weight: 800;
+     line-height: 30px;
+}
+.pic{
+    width: 120px;
+}
+.numberbox{
+    width: 100%;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid black;
+    font-size: 15px;
+    padding: 5px;
+}
+.numberbox:focus{
+    outline: none;
+}
+.checkbox{
+    font-size: 13px;
+    text-align: left;
+}
+.sendbox{
+    width: 200px;
+    padding: 10px;
+    background-color: rgb(48, 47, 47);
+    color: white;
+    border-radius: 30px;
+}
+.skipbox{
+    border: 1px solid black;
+    border-radius: 30px;
+    padding: 10px;
+    line-height: 30px;
+    width: 100%;
+    margin-top: 15px;
+}
