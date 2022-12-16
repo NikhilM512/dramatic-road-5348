@@ -1,0 +1,25 @@
+
+  .pic 
+  {
+    text-align: center;
+    margin: auto;
+    width: 200px;
+    margin-bottom: 50px;
+  }
+  
+  .divcontent {
+    text-align: center;
+  }
+  .divaaa {
+    width: 100%;
+    margin-top: 10%;
+  }
+ 
+  .bot {
+    margin-top: 30px;
+  }
+  .redirect{
+    font-size:30px;
+    margin-top:3%;
+    font-weight: 700;
+  }
