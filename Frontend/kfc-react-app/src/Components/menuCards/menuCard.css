@@ -1,0 +1,49 @@
+.cards_img {
+    /* width: 17.8vw; */
+    width: 95%;
+    height: 13.18519vw;
+    border-radius: 5px;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+    /* border: 1px solid red; */
+  }
+  .menu_title {
+    /* width: 17.8vw; */
+    width: 95%;
+    height: 40px;
+    background-color: rgb(248, 247, 245);
+    padding-top: 10px;
+    text-align: center;
+    font-family: fantasy;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 25px;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+    color: #202124;
+    bottom: 7%;
+    justify-content: center;
+  }
+  .main_card_div {
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+    /* border: 1px solid red; */
+    margin-bottom: 10px;
+  }
+  .main_card_div :hover {
+    transform: scale(1.05);
+    transition: 1s;
+  }
+  
+  @media only screen and (max-width: 730px) {
+    .menu_title {
+      font-size: 12px;
+    }
+  }
+  
+  @media only screen and (max-width: 530px) {
+    .cards_img {
+      height: 18vw;
+    }
+  }
+  

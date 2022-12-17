@@ -1,11 +1,3 @@
-import { Route, Routes } from "react-router-dom"
-import Admin from "./Admin"
-import Cart from "./Cart"
-import { Deals } from "./Deals"
-import { Home } from "./Home"
-import { Menu } from "./Menu"
-
-
 
 export const AllRoutes=()=>{
     return(
