@@ -5,9 +5,9 @@ import axios from "axios";
 import { useEffect } from "react";
 import { Button, Image, Show,Center } from "@chakra-ui/react";
 import { useDispatch, useSelector } from "react-redux";
-import { authLogout } from "../../Redux/Auth/auth.action";
 import { HamburgerIcon } from "@chakra-ui/icons";
 import Sidebar from "./sidebar";
+import authlogout from "../../Redux/Auth/auth.action";
 
 const GetData = async (values) => {
   let res = await axios.post(
@@ -26,7 +26,7 @@ const Navbar = () => {
 
   const handleClick = (e) => {
     e.preventDefault();
-    dispatch(authLogout());
+    dispatch(authlogout());
     setname("signup");
   };
 

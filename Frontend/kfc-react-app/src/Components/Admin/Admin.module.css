@@ -1,0 +1,116 @@
+.topNav{
+    box-sizing: border-box;   
+    padding: 0; 
+}
+.TopNavButton{
+    width: 50%;
+    box-sizing: border-box;
+    padding: 15px 0;
+    border: 1px solid rgb(235,235,235);
+}
+
+/* All PRoducts */
+
+
+.AllproductBox{
+    margin: auto;
+}
+ /* .AllproductBox {
+    -ms-overflow-style: none; 
+    scrollbar-width: none; 
+}
+.AllproductBox::-webkit-scrollbar { 
+    display: none;  
+}  */
+
+.productBox{
+    background-color: #fff;
+    padding: 10px 25px;
+    box-sizing: border-box;
+    margin: 10px auto;
+    border-radius: 10px;
+
+
+}
+.productRemoveButton{
+    font-size: 25px;
+    background-color: red;
+    color: #fff;
+    padding: 7px 14px;
+    border-radius: 7px;
+}
+
+.productRemoveButton:hover{
+    box-shadow: 1px 1px 4px 2px rgba(0, 0, 0, 0.5);
+}
+.productRemoveButton:active{
+    background-color: rgb(250, 173, 173);
+    color: red;
+}
+
+/* Addproducts */
+
+.form{
+    padding: 25px 35px;
+    background-color: #fff;
+    box-shadow: 0px 0px 10px 2px rgb(225,225,225);
+    width: 95%;
+    border-radius: 25px;
+    margin: 50px auto;
+}
+
+
+
+.sectionA1{
+    width: 100%;
+    padding: 15px 30px;
+}
+
+.sectionA1 input{
+    width: 100%;
+    box-sizing: border-box;
+    display: block;
+    border: 1px solid rgb(180, 180, 180);
+    margin-bottom: 15px;
+    padding: 7px 14px;
+    border-radius: 7px;
+}
+
+.sectionAA1{
+    margin: 20px auto 0;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+.sectionAA1 label{
+    width: 50%;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+}
+.sectionAA1 label input{
+    width: 90%;
+    margin-right: 0px;
+}
+
+
+
+.subButton{
+    border-radius: 7px;
+    padding: 7px 14px;
+    width: 150px;
+    background-color: rgb(247, 170, 4);
+    margin: auto;
+}
+.subButton:hover{
+    background-color: rgb(248, 200, 95);
+}
+.subButton:active{
+    background-color: rgb(153, 105, 0);
+    color: #fff;
+}
+
+.subButton:disabled{
+    background-color: rgb(199, 199, 199);
+    color: rgb(0, 0, 0);
+}
