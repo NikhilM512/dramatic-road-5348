@@ -1,13 +1,13 @@
-import "./navbar.css"
+import "./navbar.css";
 import React, { useState } from "react";
 import { Link, useNavigate } from "react-router-dom";
 import axios from "axios";
 import { useEffect } from "react";
 import { Button, Image, Show,Center } from "@chakra-ui/react";
 import { useDispatch, useSelector } from "react-redux";
-import { authLogout } from "../../Redux/Auth/auth.action";
 import { HamburgerIcon } from "@chakra-ui/icons";
 import Sidebar from "./sidebar";
+import authlogout from "../../Redux/Auth/auth.action";
 
 const GetData = async (values) => {
   let res = await axios.post(
@@ -19,16 +19,12 @@ const GetData = async (values) => {
 
 const Navbar = () => {
   const [name, setname] = useState("signup");
+  const { price } = useSelector((store) => store.cart);
   let ID = JSON.parse(localStorage.getItem("id"));
   const navigate = useNavigate();
 
   const dispatch = useDispatch();
 
-  const handleClick = (e) => {
-    e.preventDefault();
-    dispatch(authLogout());
-    setname("signup");
-  };
 
   const idCollecter = () => {
     let datas = { _id:ID };
@@ -60,7 +56,7 @@ const Navbar = () => {
       <div className="nav_main">
         <div className="left_side">
           <Link to="/">
-            <Image className="logo_img" src="/King_Of_Food.jpg" alt="" />
+            <Image className="logo_img" src="/logoeatmore1.jpg" alt="" />
           </Link>
           <Show breakpoint="(min-width: 680px)">
             <b>
@@ -88,7 +84,7 @@ const Navbar = () => {
             {ID ? (
               <Button
                 colorScheme="grey"
-                onClick={handleClick}
+                //
                 color="white"
                 bgColor="black"
               >
@@ -98,7 +94,7 @@ const Navbar = () => {
               ""
             )}
 
-            <h6 className="cartCountItems">₹ price</h6>
+            <h6 className="cartCountItems">₹ {price}</h6>
 
             <Button bgColor="white" onClick={() => navigate("/cart")}>
               <img className="cart_img" src="/cart.svg" alt="" />
@@ -107,8 +103,9 @@ const Navbar = () => {
         </Show>
         <Show breakpoint="(max-width: 680px)">
           <Sidebar
-            handleClick={handleClick}
+            price={price}
             ID={ID}
+            //
             name={name}
           />
         </Show>

@@ -1,7 +1,7 @@
 import "./home.css";
 import React from 'react';
 import { Carousels } from "../carousels/Carousels";
-import { MenuCards } from "../menuCards/MenuCards";
+import { MenuCards } from "../MenuPageComponents/MenuCard";
 import Offer from "../home_footer/Offer";
 import Footer from "../home_footer/Footer";
 import { Button } from '../main_button/Button';
@@ -21,7 +21,7 @@ const Home = () => {
 
       <div className="slider">
         <Carousels
-          img1={"./banner11.webp"}
+          img1={"./kgf.webp"}
           img2={"./banner2.webp"}
           img3={"./banner3.webp"}
           img4={"./banner4.webp"}
@@ -32,7 +32,7 @@ const Home = () => {
       <div className="userDiv">
         <img className="bandImg" src="./band.png" alt="" />
         <h1 className="welcome_text">
-          WELCOME TO EAT MORE!
+          WELCOME TO KING OF GOOD FOOD
         </h1>
       </div>
 
