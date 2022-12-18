@@ -1,0 +1,173 @@
+.img-container {
+    width: 100%;
+    display: flex;
+    position: relative;
+}
+
+.img-container img {
+    width: 100%;
+}
+
+.img-container>div {
+    position: absolute;
+    top: 44%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: rgb(255, 255, 255);
+    font-size: 60px;
+    line-height: 30px;
+    font-style: initial;
+    font-weight: 700;
+
+}
+
+.how-help-box {
+    width: 90%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.help-text>p {
+    font-size: 30px;
+    line-height: 43px;
+    font-weight: 700;
+    text-align: center;
+    margin-top: 70px;
+}
+
+.help-box-flex {
+    width: 100%;
+    height: 100%;
+
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+}
+
+.help-box {
+    width: 70%;
+    display: flex;
+    margin: auto;
+    margin-top: 2%;
+    justify-content: space-around;
+}
+
+.kfc-line {
+    border-bottom: 1px solid rgb(156, 156, 156);
+    display: block;
+    width: 170px;
+    margin-top: 1%;
+    margin-bottom: 25px;
+    margin-left: 10px;
+    margin-right: 45px;
+}
+
+.help-box>p {
+    font-weight: bold;
+    line-height: 20px;
+}
+
+.find-a-kfc {
+    height: 100%;
+    /* width: 30%; */
+    /* border: 1px solid orange; */
+}
+
+* .call-us>p {
+    font-size: 17px;
+    font-weight: 500;
+    line-height: 24px;
+    color: #494949;
+}
+
+.call-us>p:nth-child(2) {
+    font-size: 17px;
+    font-weight: 700;
+    line-height: 24px;
+    color: #202124;
+}
+
+.container-find-kfc {
+    width: 70%;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+.find-a-kfc>button {
+    background-color: white;
+    border: 2px solid black;
+    color: black;
+    width: 160px;
+    height: 47px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    margin-top: 3%;
+}
+
+.contact-us>button {
+    background-color: white;
+    border: 2px solid black;
+    color: black;
+    font-size: 15px;
+    font-weight: 700;
+    height: 47px;
+    width: 190px;
+    cursor: pointer;
+}
+
+.faq {
+    width: 60%;
+    margin: auto;
+    margin-top: 5%;
+    background-color: #f8f7f5;
+    border-radius: 10px;
+    margin-bottom: 40px;
+    padding-bottom: 9%;
+}
+
+.faq-text>p {
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 30px;
+    padding-top: 2%;
+}
+
+.but-style {
+    height: 45px;
+    width: 110px;
+    background-color: #f8f7f5;
+    border: 1px solid rgb(204, 193, 193);
+    color: #626468;
+    font-weight: 700;
+    font-size: 13px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+/* .four-buttons{
+       margin-left: 100px;
+       } */
+.all-faq>button {
+    background-color: #f8f7f5;
+    border: 2px solid black;
+    color: rgb(85, 81, 81);
+    font-size: 15px;
+    margin-top: 40px;
+    font-weight: 700;
+    height: 47px;
+    width: 190px;
+    cursor: pointer;
+}
+
+.deals-gls {
+    text-decoration: none;
+    color: black;
+}
+
+button {
+    border-radius: 25px;
+}

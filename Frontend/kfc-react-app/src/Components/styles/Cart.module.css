@@ -1,0 +1,489 @@
+.container {
+  margin-left: 11%;
+}
+
+.heading {
+  margin-top: 11px;
+  font-weight: 700;
+  font-size: 44px;
+  text-transform: uppercase;
+  color: #202124;
+  text-align: left;
+}
+.cartitem {
+  margin-top: 10px;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  display: flex;
+  padding: 11px 16px;
+  background-color: #f8f7f5;
+  border-radius: 3px;
+  align-items: flex-start;
+  width: 100%;
+}
+.cartitemImg {
+  border-radius: 3px;
+  width: 144px;
+  object-fit: contain;
+}
+.cartitembtn {
+  padding: 0 19px 19px 0;
+  height: 30px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  text-align: left;
+  background-color: transparent;
+  border: none;
+}
+.cartitemDish {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  color: #494949;
+}
+.cartbtnCont {
+  margin-left: 6.5%;
+  width: 100%;
+  position: relative;
+}
+.arrow {
+  width: 8px;
+  height: 8px;
+  object-fit: contain;
+  cursor: pointer;
+}
+.cartActions {
+  display: flex;
+  align-items: center;
+  margin-top: 55px;
+}
+.removebtn {
+  font-style: normal;
+  font-weight: 900;
+  font-size: 12px;
+  line-height: 22px;
+  -webkit-text-decoration-line: underline;
+  text-decoration-line: underline;
+  color: #202124;
+  cursor: pointer;
+  border-radius: 3px;
+  cursor: pointer;
+}
+.m {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  /* margin-right: -15px;
+  margin-left: -15px; */
+}
+.unOrderP {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI",
+    Roboto, "Helvetica Neue", Arial, "Noto Sans",
+    "Liberation Sans", sans-serif, "Apple Color Emoji",
+    "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #212529;
+  text-align: left;
+}
+.unOrderC {
+  font-family: "National 2 Regular";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 22px;
+  color: #494949;
+  margin: 4px 0;
+  width: 90%;
+}
+.cartCounterP {
+  display: flex;
+  align-items: center;
+  position: absolute;
+  right: 7%;
+  bottom: 38%;
+}
+.cartCounterC {
+  display: flex;
+  align-items: center;
+  margin-right: 20px;
+}
+.cartCounterP::after::before {
+  box-sizing: border-box;
+}
+.counterInc {
+  display: flex;
+  border: 1px solid #202124;
+  background-color: #fff;
+  padding: 0;
+  height: 32px;
+  width: 32px;
+  justify-content: center;
+  background-image: url(https://online.kfc.co.in/static/media/cart-plus.81d0f379.svg);
+  background-repeat: no-repeat;
+  background-position: 50%;
+  border-radius: 50%;
+}
+.counterInc:hover {
+  background-color: #202124;
+  background-image: url(https://online.kfc.co.in/static/media/cart-plus-white.07c0bdab.svg);
+}
+.counterDec {
+  display: flex;
+  border: 1px solid #202124;
+  background-color: #fff;
+  padding: 0;
+  height: 32px;
+  width: 32px;
+  justify-content: center;
+  background-image: url(https://online.kfc.co.in/static/media/cart-minus-active.d529b089.svg);
+  background-repeat: no-repeat;
+  background-position: 50%;
+  border-radius: 50%;
+}
+.counterDec:hover {
+  background-color: #202124;
+  background-image: url(https://online.kfc.co.in/static/media/cart-minus-active-white.b474cbc1.svg);
+}
+.counterVal {
+  font-family: "National2-Medium";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 30px;
+  color: #202124;
+  width: 40px;
+  text-align: center;
+}
+.srOnly {
+  position: absolute;
+  width: -918px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  border: 0;
+}
+.itemPrice {
+  width: 4vw;
+  font-family: "National 2 Regular";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+  text-align: right;
+  color: #202124;
+  display: flex;
+  flex-direction: column;
+}
+.emptyCart {
+  display: flex;
+  align-items: center;
+  background: #f8f7f5;
+  margin-bottom: 80px;
+  width: 80%;
+  margin-left: 11%;
+  margin-right: 8%;
+}
+.emptyCartimg {
+  vertical-align: middle;
+}
+.emptyCartC {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-items: center;
+  flex: 1 1;
+  padding-left: 100px;
+  padding-right: 100px;
+}
+.emptyCartH {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 40px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: #202124;
+  margin-bottom: 30px;
+  box-sizing: border-box;
+  text-align: left;
+}
+.emptyCartbtn {
+  background-color: #e4002b;
+  border: 1px solid #e4002b;
+  color: #fff;
+  padding: 11px 40px;
+  border-radius: 200px;
+  height: 44px;
+  text-align: center;
+  align-items: center;
+  flex-direction: row;
+
+  font-style: normal;
+  font-size: 14px;
+  line-height: 24px;
+}
+.innerCantainer {
+  display: flex;
+}
+.cartCompo {
+  width: 70%;
+}
+.priceCompo {
+  box-shadow: 0 4px 9px rgb(0 0 0 / 15%);
+  border-radius: 10px;
+  background: #fff;
+  margin-left: 40px;
+  padding: 40px;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+}
+.cartOffer {
+  width: 100%;
+  height: 50px;
+  background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAUAAAAA0CAYAAAD7VOHJAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAJbSURBVHgB7d3PcdpAFIDx9wQWks0hdEA6gA6SChJXkHSSdJBJBXYqsFOB6cDuIHQgH0TEX21YxpOxQVrOq/f9TkKr8ze70iLpslo4AQCDEgEAowggALMIIACzCCAAswggALMIIACzCCAAswggALMIIACzCCAAswggALMIIACzEle7XwIAxqjIrfqDqqrGKvXD/nAsANBt8+3OXQ+Hw6fDEjjP83m1XE9F9V4AoKP8ineQXU59/PxvPb6gWpS3mugXAYAucXKfXV5dvz51EsCiKN7lWfooLIcBdMfcz/xU9fn1SW26sizLSb+njwIAHeAkee9v9R2fb9wG49fHtat/CgBEzj/tbYrfy1izl6VwIQAQsbbZn9e6EXo0Gu3XyjoTAIiWztri5wX/CbJfBv8WAIjVmYYFA9jvy0wAIFJu555C48EALhabuQBApLLhNhhAlTP4cDqAWGX5VbBxvA0GgFnBAPqtMAIAkXIu3LBgALOsPxEAiNRmczEOjQcD6JwSQADRqrfyITQeDGCiyScBgFidaVjrE5KqKsYq6R8BgIgNsvVIdfTcNNY+A6wvvgsARG5VDb61jTXOAJn9AeiSpOemaTo82RR9MgP0j4338XsQAOiIeqd3TVtiTgK4qtIb4W3QALplvF6mP45P/g+gr+OqWtzsF8WfBQA6xol8XS3/vpkJHu4BlmUx6ffSO2HmB6D75k7WH/N8NFe+AgfAosOH0XnbCwCreBsMALMIIACzCCAAswggALMIIACzCCAAswggALMIIACzCCAAswggALMIIACzCCAAs/4BsqmdodGkXAsAAAAASUVORK5CYII=);
+  background-size: contain;
+  padding: 0 7%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.cartOfferLink {
+  box-sizing: border-box;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #212529;
+  text-align: left;
+  background-color: #fff;
+  display: flex;
+  width: 200px;
+}
+.cartOfferIcon {
+  vertical-align: middle;
+  border-style: none;
+}
+.cartOfferBtn {
+  border: 1px solid #494949;
+  width: 80px;
+  border-radius: 20px;
+}
+.cartOfferBtn:hover {
+  background-color: #202124;
+  color: #fff;
+}
+.cartOfferText {
+  margin-left: 10px;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 24px;
+  color: #e4002b;
+}
+.cartOfferSum {
+  border-bottom: 1px solid #e3e3e3;
+  padding-bottom: 20px;
+  margin-bottom: 20px;
+}
+.sub {
+  display: flex;
+  justify-content: space-between;
+}
+.Sum {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  color: #494949;
+  width: 208px;
+  text-transform: capitalize;
+  text-align: left;
+}
+.Amo {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 24px;
+  color: #202124;
+  text-align: right;
+}
+.cartDonation {
+  display: flex;
+  margin-bottom: 20px;
+  border: 1px solid #e3e3e3;
+  border-radius: 3px;
+  padding: 10px 16px;
+}
+.donationInput {
+  margin-top: 5px;
+  margin-right: 7px;
+  margin: 0;
+}
+input[type="checkbox"] {
+  box-sizing: border-box;
+  padding: 0;
+  background-color: initial;
+  cursor: default;
+  appearance: auto;
+  box-sizing: border-box;
+  margin: 3px 3px 3px 4px;
+  padding: initial;
+  border: initial;
+}
+.donationLabel {
+  display: inline-block;
+  margin-bottom: 0.5rem;
+  margin-right: 5px;
+  margin-left: 5px;
+  box-sizing: border-box;
+}
+.donationLableHeader {
+  width: 159px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 24px;
+  color: #202124;
+  text-align: left;
+}
+.donationLableBody {
+  width: 163px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 22px;
+  color: #494949;
+  text-align: left;
+}
+.donationImg {
+  width: 53px;
+  height: 36px;
+  object-fit: contain;
+}
+.checkOut {
+  display: flex;
+  justify-content: space-between;
+  background-color: #e4002b;
+  width: 100%;
+  color: #fff;
+  padding: 11px 40px;
+  border-radius: 200px;
+  height: 44px;
+  text-align: center;
+  align-items: center;
+  flex-direction: row;
+}
+.emptyPoster {
+  margin: 120px;
+
+  margin-top: 120px;
+}
+.checkOutCompo {
+  background-color: #f8f7f5;
+  display: flex;
+  flex-wrap: wrap;
+  margin-right: -15px;
+  margin-left: -15px;
+  margin-left: 11%;
+  text-align: left;
+}
+.CheckOutheading {
+  width: 25%;
+  font-size: large;
+  padding: 40px 40px 40px 40px;
+  font-size: 24px;
+  font-weight: 700;
+}
+.checkOutBody {
+  width: 70%;
+  padding: 40px;
+}
+.resdEVIVERY {
+  display: flex;
+  gap: 20px;
+  margin-bottom: 20px;
+}
+.inputAndLableCheckOut {
+  display: flex;
+  flex-direction: column;
+}
+.inputAddress {
+  border: none;
+  border-bottom: 2px solid #c9c9c9;
+  width: 30%;
+  background-color: #f8f7f5;
+}
+
+.inputAddress:focus,
+textarea:focus,
+select:focus,
+label:focus + label:focus {
+  outline: none;
+  color: #3f51b5;
+  border-bottom: 2px solid #3f51b5;
+}
+.deliveryTime {
+  display: flex;
+  margin-top: 20px;
+  gap: 20px;
+}
+.boldfont1 {
+  font-weight: 600;
+}
+.radioA {
+  width: 30%;
+  padding: 40px;
+}
+.smallFontDF {
+  font-family: "National2-Medium";
+  font-weight: 500;
+  color: #202124;
+  font-size: 14px;
+  margin-left: 10px;
+}
+.smallFontDF1 {
+  font-family: "National2-Medium";
+  font-weight: 500;
+  color: #202124;
+  font-size: 14px;
+}
+.CheckOutheading2 {
+  width: 100%;
+  font-size: large;
+  padding: 40px 40px 40px 40px;
+  font-size: 24px;
+  font-weight: 700;
+  display: flex;
+}
+.addpaymentMethod {
+  padding-right: 40px;
+}
+.addpaymentMethod2 {
+  font-size: 15px;
+
+  width: 160px;
+
+  text-decoration: underline;
+}
+.lastname {
+  display: flex;
+  margin-left: 4%;
+}
+.lastRadioKing {
+  padding: 10px;
+  margin-bottom: 20px;
+  height: 40px;
+  border-radius: 5px;
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px,
+    rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+}

@@ -1,13 +1,12 @@
-import "./navbar.css"
+import "./navbar.css";
 import React, { useState } from "react";
 import { Link, useNavigate } from "react-router-dom";
 import axios from "axios";
 import { useEffect } from "react";
-import { Button, Image, Show,Center } from "@chakra-ui/react";
-import { useDispatch, useSelector } from "react-redux";
-import { authLogout } from "../../Redux/Auth/auth.action";
-import { HamburgerIcon } from "@chakra-ui/icons";
+import { Button, Image, Show } from "@chakra-ui/react";
+import { useDispatch } from "react-redux";
 import Sidebar from "./sidebar";
+import authlogout from "../../Redux/Auth/auth.action";
 
 const GetData = async (values) => {
   let res = await axios.post(
@@ -19,6 +18,8 @@ const GetData = async (values) => {
 
 const Navbar = () => {
   const [name, setname] = useState("signup");
+  const [totalprice,setTotalPrice]=useState(0)
+  // const { "price" } = useSelector((store) => store.cart);
   let ID = JSON.parse(localStorage.getItem("id"));
   const navigate = useNavigate();
 
@@ -26,12 +27,12 @@ const Navbar = () => {
 
   const handleClick = (e) => {
     e.preventDefault();
-    dispatch(authLogout());
+    dispatch(authlogout());
     setname("signup");
   };
 
   const idCollecter = () => {
-    let datas = { _id:ID };
+    let datas = { _id: ID };
     GetData(datas)
       .then((res) => {
         let firstName = res.data.split(" ");
@@ -45,22 +46,24 @@ const Navbar = () => {
   console.log(ID);
 
   useEffect(() => {
+    let temp = +localStorage.getItem("totalcart")||0;
+    setTotalPrice(temp)
     if (ID) {
       idCollecter();
     }
-  }, [ID]);
-  
+  }, [ID,totalprice]);
+
   const handleIt = (e) => {
     e.preventDefault();
-    
+
   }
 
   return (
     <>
-      <div className="nav_main">
-        <div className="left_side">
+      <div className="nav_main" border="1px solid red">
+        <div className="left_side" border="1px solid red">
           <Link to="/">
-            <Image className="logo_img" src="/King_Of_Food.jpg" alt="" />
+            <Image className="logo_img" src="/logoeatmore1.jpg" alt="" />
           </Link>
           <Show breakpoint="(min-width: 680px)">
             <b>
@@ -75,10 +78,10 @@ const Navbar = () => {
             </b>
           </Show>
         </div>
-        <Show breakpoint="(min-width: 680px)">
-          <div className="right_side">
+        <Show breakpoint="(min-width: 680px)" border="1px solid red">
+          <div className="right_side"  border="1px solid red">
             <span>
-              <img src="/login2.png" alt="" />
+              <img src="/login2.png" alt="abc" />
             </span>
             <b>
               <Link className="link" to={ID ? "/" : "/signup"}>
@@ -98,7 +101,7 @@ const Navbar = () => {
               ""
             )}
 
-            <h6 className="cartCountItems">₹ price</h6>
+            <h6 className="cartCountItems" w="125%" border="1px solid red" >₹{totalprice}</h6>
 
             <Button bgColor="white" onClick={() => navigate("/cart")}>
               <img className="cart_img" src="/cart.svg" alt="" />
@@ -107,6 +110,7 @@ const Navbar = () => {
         </Show>
         <Show breakpoint="(max-width: 680px)">
           <Sidebar
+            price={totalprice}
             handleClick={handleClick}
             ID={ID}
             name={name}

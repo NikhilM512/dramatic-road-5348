@@ -1,5 +1,5 @@
-import { ReactNode } from 'react';
-import StoreBadge from 'react-store-badges';
+// import { ReactNode } from 'react';
+import StoreBadge from 'react-store-badge';
 import {
   Box,
   Container,
@@ -108,7 +108,7 @@ export default function LargeWithAppLinksAndSocial() {
           spacing={4}
           justify={{ md: 'space-between' }}
           align={{ md: 'center' }}>
-          <Text>Copyright © KGF Corporation 2021 All Rights Reserved</Text>
+          <Text>Copyright © KFC Corporation 2021 All Rights Reserved</Text>
           <Stack direction={'row'} spacing={6}>
             <SocialButton label={'Twitter'} href={'#'}>
               <FaTwitter />

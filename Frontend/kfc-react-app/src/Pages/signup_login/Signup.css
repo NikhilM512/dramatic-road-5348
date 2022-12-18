@@ -1,0 +1,197 @@
+.outerSection {
+  background-color: #F8F7F5;
+  width: 100%;
+  height: 100%;
+  padding-top: 20px;
+   padding-bottom: 20px;
+  
+}
+
+.signupsection {
+  /* border: 1px solid black; */
+  /* width: 50%; */
+  /* height: max-content; */
+  margin: auto;
+  margin-top: 25px;
+  margin-bottom: 40px;
+  border-radius: 15px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+
+
+#singupsvgdiv {
+  /* border: 1px solid black; */
+  height: 35px;
+  border-radius: 12px;
+}
+
+.signupsvgdiv2 {
+  /* border: 1px solid red; */
+  width: 55px;
+  margin-left: 28px;
+  height: 35px;
+}
+
+#signupsvgStrip {
+  fill: #e4002b;
+  height: 25px;
+}
+
+.signupmainbox {
+  /* border: 1px solid red; */
+  width: 90%;
+  height: max-content;
+  padding: 20px;
+  margin: auto;
+  margin-top: 20px;
+  background-color: white;
+}
+
+#signupTitle {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+.signupformdiv {
+  /* border: 1px solid black; */
+  margin-top: 20px;
+  height: fit-content;
+}
+
+.input-data {
+  height: 40px;
+  width: 100%;
+  position: relative;
+}
+
+.input-data>input {
+  height: 100%;
+  width: 100%;
+  border: none;
+  font-size: 17px;
+  border-bottom: 2px solid black;
+  outline: none;
+}
+
+.input-data>input:focus {
+  border-bottom: 2px solid crimson;
+  transition: all 0.3s ease;
+}
+
+.input-data>input:focus~label,
+.input-data>input:valid~label {
+  transform: translateY(-20px);
+  font-size: 15px;
+  color: crimson;
+}
+
+.input-data>label {
+  position: absolute;
+  bottom: 10px;
+  left: 0;
+  color: black;
+  font-size: 20px;
+  font-weight: 600;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  pointer-events: none;
+  transition: all 0.3s ease;
+}
+
+#signuperrorBox {
+  /* border: 1px solid blue; */
+  height: 30px;
+  margin-bottom: 10px;
+}
+
+.checkifrequired {
+  /* border: 1px solid black; */
+  height: fit-content;
+  margin-top: 20px;
+}
+
+.checkBoxflex {
+  /* border: 1px solid red; */
+  display: flex;
+  padding: 5px;
+}
+
+.checkBoxDiv {
+  /* border: 1px solid black; */
+  height: 20px;
+  width: 20px;
+}
+
+#checkboxtick {
+  height: 20px;
+  width: 20px;
+  cursor: pointer;
+}
+
+#checkboxtick2 {
+  height: 20px;
+  width: 20px;
+  cursor: pointer;
+}
+
+.checkBoxText {
+  /* border: 1px solid black; */
+  height: fit-content;
+  width: 80%;
+  margin: auto;
+  margin-bottom: 5px;
+  font-size: 14px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.cLink {
+  font-weight: bold;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.signupBtndiv {
+  /* border: 1px solid black; */
+  height: 50px;
+  width: 90%;
+  margin: auto;
+  margin-top: 16px;
+  border-radius: 25px;
+}
+
+.signupBtndiv>input {
+  width: 100%;
+  height: 100%;
+  border-radius: 25px;
+  outline: none;
+  border: none;
+  font-size: 17px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-weight: bold;
+  background: #dbdbdb;
+  cursor: pointer;
+}
+
+.redirecttologin {
+  /* border: 1px solid black; */
+  height: 35px;
+  width: 90%;
+  margin: auto;
+  margin-top: 9px;
+}
+
+.redirectlogintext {
+  padding: 5px;
+  font-size: 17px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+.redirectloginlink {
+  text-decoration: underline;
+  font-weight: 500;
+  cursor: pointer;
+  color: black;
+}

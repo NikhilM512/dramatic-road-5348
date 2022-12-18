@@ -34,9 +34,9 @@
 }
 
 .logo_img{
-    height: 101px;
-    /* width: 50px; */
-    margin-top: -37px;
+    
+    width: 70px;
+    margin-right: 20px;
     /* padding-left: 5px; */
 
    
@@ -94,5 +94,7 @@
     .black{
         display: none;
     }
-   
+    /* .left_side{
+        width: 60px;
+    } */
 }

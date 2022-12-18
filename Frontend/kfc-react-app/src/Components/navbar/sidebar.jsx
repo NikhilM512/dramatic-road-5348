@@ -2,22 +2,19 @@ import { HamburgerIcon } from "@chakra-ui/icons";
 import {
   Drawer,
   DrawerBody,
-  DrawerFooter,
   DrawerHeader,
   DrawerOverlay,
   DrawerContent,
-  DrawerCloseButton,
   useDisclosure,
   RadioGroup,
   Button,
   Flex,
   Center,
   Image,
-  Text,
   Grid,
 } from "@chakra-ui/react";
 import React from "react";
-import { Container, Stack } from "react-bootstrap";
+import { Stack } from "react-bootstrap";
 import { Link, useNavigate } from "react-router-dom";
 
 export default function Sidebar({ price, handleClick, ID, name }) {
