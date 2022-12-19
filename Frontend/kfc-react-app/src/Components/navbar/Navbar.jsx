@@ -4,7 +4,7 @@ import { Link, useNavigate } from "react-router-dom";
 import axios from "axios";
 import { useEffect } from "react";
 import { Button, Image, Show } from "@chakra-ui/react";
-import { useDispatch } from "react-redux";
+import { useDispatch, useSelector } from "react-redux";
 import Sidebar from "./sidebar";
 import authlogout from "../../Redux/Auth/auth.action";
 
@@ -19,7 +19,8 @@ const GetData = async (values) => {
 const Navbar = () => {
   const [name, setname] = useState("signup");
   const [totalprice,setTotalPrice]=useState(0)
-  // const { "price" } = useSelector((store) => store.cart);
+  const {name:userName} = useSelector((store) => store.auth.user);
+  console.log((userName))
   let ID = JSON.parse(localStorage.getItem("id"));
   const navigate = useNavigate();
 
@@ -48,10 +49,11 @@ const Navbar = () => {
   useEffect(() => {
     let temp = +localStorage.getItem("totalcart")||0;
     setTotalPrice(temp)
+    setname(userName);
     if (ID) {
       idCollecter();
     }
-  }, [ID,totalprice]);
+  }, [ID,totalprice,userName]);
 
   const handleIt = (e) => {
     e.preventDefault();
@@ -101,7 +103,7 @@ const Navbar = () => {
               ""
             )}
 
-            <h6 className="cartCountItems" w="125%" border="1px solid red" >₹{totalprice}</h6>
+            <h6 className="cartCountItems" w="125%" border="1px solid red" >₹{totalprice.toFixed(0)}</h6>
 
             <Button bgColor="white" onClick={() => navigate("/cart")}>
               <img className="cart_img" src="/cart.svg" alt="" />

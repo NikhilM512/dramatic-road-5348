@@ -12,13 +12,14 @@ import { Admin } from "../Components/Admin/Admin";
 import PaymentOption from "../Pages/payment/paymentOption";
 import CardPayment from "../Pages/payment/CardPayment";
 import Confirmation from "../Pages/payment/Confirmationpage";
+import RequireAuth from "../Components/RequireAuth/RequireAuth";
 
 function AllRoutes() {
   return (
     <div>
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/menu" element={<Menu />} />
+        <Route path="/menu" element={ <RequireAuth>< Menu /></RequireAuth> }/>
         <Route path="/cart" element={<Cart />} />
         <Route path="/deals" element={<Deals />} />
         <Route path="/account" element={<Account />} />
