@@ -17,10 +17,10 @@ import React from "react";
 import { Stack } from "react-bootstrap";
 import { Link, useNavigate } from "react-router-dom";
 
-export default function Sidebar({ price, handleClick, ID, name }) {
+export default function Sidebar({ price, handleClick, ID, name,userName }) {
   const { isOpen, onOpen, onClose } = useDisclosure();
   const [placement, setPlacement] = React.useState("top");
-  const navigate = useNavigate();
+  // const navigate = useNavigate();
 
   return (
     <>
@@ -49,24 +49,33 @@ export default function Sidebar({ price, handleClick, ID, name }) {
                   <Link
                     className="link"
                     onClick={onClose}
-                    to={ID ? "/" : "/signup"}
+                    to={userName ? "/" : "/login"}
                   >
-                    {name}
+                    {userName ? name : "Login"}
                   </Link>
-                  {ID ? (
-                    <Link onClick={onClose}>
+                  {userName ? (
+                    <Button
+                      colorScheme="grey"
+                      onClick={handleClick}
+                      color="white"
+                      bgColor="black"
+                    >
+                      Signout
+                    </Button>
+                  ) : (
+                    <Link to="/signup">
                       <Button
-                        colorScheme="red"
+                        colorScheme="grey"
                         onClick={handleClick}
                         color="white"
                         bgColor="black"
                       >
-                        Signout
+                        Signup
                       </Button>
                     </Link>
-                  ) : (
-                    ""
-                  )}{" "}
+
+                  )}
+
                 </Center>
               </Flex>
 

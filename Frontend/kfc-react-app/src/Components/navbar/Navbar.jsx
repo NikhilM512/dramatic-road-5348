@@ -18,8 +18,8 @@ const GetData = async (values) => {
 
 const Navbar = () => {
   const [name, setname] = useState("signup");
-  const [totalprice,setTotalPrice]=useState(0)
-  const {name:userName} = useSelector((store) => store.auth.user);
+  const [totalprice, setTotalPrice] = useState(0)
+  const { name: userName } = useSelector((store) => store.auth.user);
   console.log((userName))
   let ID = JSON.parse(localStorage.getItem("id"));
   const navigate = useNavigate();
@@ -29,7 +29,8 @@ const Navbar = () => {
   const handleClick = (e) => {
     e.preventDefault();
     dispatch(authlogout());
-    setname("signup");
+    navigate("/")
+    setname("");
   };
 
   const idCollecter = () => {
@@ -47,13 +48,13 @@ const Navbar = () => {
   console.log(ID);
 
   useEffect(() => {
-    let temp = +localStorage.getItem("totalcart")||0;
+    let temp = +localStorage.getItem("totalcart") || 0;
     setTotalPrice(temp)
     setname(userName);
     if (ID) {
       idCollecter();
     }
-  }, [ID,totalprice,userName]);
+  }, [ID, totalprice, userName]);
 
   const handleIt = (e) => {
     e.preventDefault();
@@ -81,16 +82,16 @@ const Navbar = () => {
           </Show>
         </div>
         <Show breakpoint="(min-width: 680px)" border="1px solid red">
-          <div className="right_side"  border="1px solid red">
+          <div className="right_side" border="1px solid red">
             <span>
               <img src="/login2.png" alt="abc" />
             </span>
             <b>
-              <Link className="link" to={ID ? "/" : "/signup"}>
-                {name}
+              <Link className="link" to={userName ? "/" : "/login"}>
+                {userName ? name : "Login"}
               </Link>
             </b>
-            {ID ? (
+            {userName ? (
               <Button
                 colorScheme="grey"
                 onClick={handleClick}
@@ -100,7 +101,17 @@ const Navbar = () => {
                 Signout
               </Button>
             ) : (
-              ""
+              <Link to="/signup">
+                <Button
+                  colorScheme="grey"
+                  onClick={handleClick}
+                  color="white"
+                  bgColor="black"
+                >
+                  Signup
+                </Button>
+              </Link>
+
             )}
 
             <h6 className="cartCountItems" w="125%" border="1px solid red" >₹{totalprice.toFixed(0)}</h6>
@@ -116,6 +127,7 @@ const Navbar = () => {
             handleClick={handleClick}
             ID={ID}
             name={name}
+            userName={userName}
           />
         </Show>
       </div>
