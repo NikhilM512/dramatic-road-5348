@@ -1,0 +1,902 @@
+[
+    {
+        "image": "https://orderserv-kfc-assets.yum.com/15895bb59f7b4bb588ee933f8cd5344a/images/items/xl/D-K350.jpg?ver=19.25\t",
+        "title": "Pepsi PET",
+        "desc": "Pepsi PET",
+        "categories": "BEVERAGES",
+        "price": 57.14,
+        "type": "Veg",
+        "serve": "",
+        "id": "8cb04d07-9971-48f7-8f38-f1cb9a23ed99"
+    },
+    {
+        "image": "https://orderserv-kfc-assets.yum.com/15895bb59f7b4bb588ee933f8cd5344a/images/items/xl/D-K485.jpg?ver=19.25",
+        "title": "Pepsi Can 330 ml",
+        "desc": "Pepsi Can 330 ml",
+        "categories": "BEVERAGES",
+        "price": 57.14,
+        "type": "Veg",
+        "serve": "",
+        "id": "567f77fb-04dd-4e0a-afd5-708ea2ffcafd"
+    },
+    {
+        "image": "https://orderserv-kfc-assets.yum.com/15895bb59f7b4bb588ee933f8cd5344a/images/items/xl/D-K487.jpg?ver=19.25\t",
+        "title": "7UP Can 330 ml",
+        "desc": "7UP Can 330 ml",
+        "categories": "BEVERAGES",
+        "price": 57.14,
+        "type": "Veg",
+        "serve": "",
+        "id": "861b9c57-c4b3-4755-a920-1341004b8257"
+    },
+    {
+        "image": "https://orderserv-kfc-assets.yum.com/15895bb59f7b4bb588ee933f8cd5344a/images/items/xl/D-K486.jpg?ver=19.25",
+        "title": "Pepsi Black Can 330 ml",
+        "desc": "Pepsi Black Can 330 ml",
+        "categories": "BEVERAGES",
+        "price": 57.14,
+        "type": "Veg",
+        "serve": "",
+        "id": "cdad1962-3f7f-498d-94f2-fcebe5e1ddc2"
+    },
+    {
+        "image": "https://orderserv-kfc-assets.yum.com/15895bb59f7b4bb588ee933f8cd5344a/images/items/xl/D-K488.jpg?ver=19.25",
+        "title": "Mirinda Can 330 ml",
+        "desc": "Mirinda Can 330 ml",
+        "categories": "BEVERAGES",
+        "price": 57.14,
+        "type": "Veg",
+        "serve": "",
+        "id": "f4e980c8-4197-4adf-9b52-b0068325df43"
+    },
+    {
+        "image": " https://orderserv-kfc-assets.yum.com/15895bb59f7b4bb588ee933f8cd5344a/images/items/xl/D-PR00002166.jpg?ver=19.25\t",
+        "title": "Classic Biryani Combo",
+        "desc": "Large portions of Biryani rice with 2 pc Hot & Crispy, 2 Gravies, 4 Strips & Pepsi PET",
+        "categories": "Biryani_Buckets",
+        "price": 740,
+        "type": "Non veg",
+        "serve": "Serves 2",
+        "id": "6a1658a1-ba4a-418f-89c9-cade09d23b1e"
+    },
+    {
+        "image": " https://orderserv-kfc-assets.yum.com/15895bb59f7b4bb588ee933f8cd5344a/images/items/xl/D-PR00002017.jpg?ver=19.25\t",
+        "title": "Smoky Grilled Biryani Combo",
+        "desc": "Large portions of Biryani rice with 2 pc Smoky Red, 2 Gravies, Med Popcorn & Pepsi PET",
+        "categories": "Biryani_Buckets",
+        "price": 740,
+        "type": "Non veg",
+        "serve": "Serves 2",
+        "id": "d5c7b7a6-c1b9-498test_imaged-bbbhttps://orderserv-kfc-assets.yum.com/15895bb59f7b4bb588ee933f8cd5344a/images/items/xl/d-ac4258b14bbd"
+    },
+    {
+        "image": " https://orderserv-kfc-assets.yum.com/15895bb59f7b4bb588ee933f8cd5344a/images/items/xl/D-PR00002052.jpg?ver=19.25\t",
+        "title": "Popcorn Biryani Combo",
+        "desc": "Large portions of Biryani & Chicken Popcorn, 2 Spicy Gravies, 4pc Wings & Pepsi PET",
+        "categories": "Biryani_Buckets",
+        "price": 690.48,
+        "type": "Non veg",
+        "serve": "Serves 2",
+        "id": "ec68b948-c707-4b33-a949-f8cb33b621f0"
+    },
+    {
+        "image": " https://orderserv-kfc-assets.yum.com/15895bb59f7b4bb588ee933f8cd5344a/images/items/xl/D-K626.jpg?ver=19.25",
+        "title": "Classic Chicken Biryani Bucket-Large",
+        "desc": "Large portions of Biryani rice served with 2 pc Hot & Crispy Chicken & 2 Gravies",
+        "categories": "Biryani_Buckets",
+        "price": 475.24,
+        "type": "Non veg",
+        "serve": "Serves 2",
+        "id": "d73f1122-6732-4e85-a2d9-be6efa51f21b"
+    },
+    {
+        "image": " https://orderserv-kfc-assets.yum.com/15895bb59f7b4bb588ee933f8cd5344a/images/items/xl/D-K627.jpg?ver=19.25",
+        "title": "Popcorn Chicken Biryani Bucket-Large",
+        "desc": "Large portions of Biryani rice served with Chicken Popcorn & 2 Gravies",
+        "categories": "Biryani_Buckets",
+        "price": 475.24,
+        "type": "Non veg",
+        "serve": "Serves 2",
+        "id": "d25fe432-387test_imaged-4bfa-a8a0-2b0460203631"
+    },
+    {
+        "image": " https://orderserv-kfc-assets.yum.com/15895bb59f7b4bb588ee933f8cd5344a/images/items/xl/D-K628.jpg?ver=19.25\t",
+        "title": "Smoky Grilled Biryani Bucket-Large",
+        "desc": "Large portions of Biryani rice served with 2 pc Smoky Red Chicken & 2 Gravies",
+        "categories": "Biryani_Buckets",
+        "price": 475.24,
+        "type": "Non veg",
+        "serve": "Serves 2",
+        "id": "72d1cad6-d419-40b2-996c-dc97c3443f27"
+    },
+    {
+        "image": " https://orderserv-kfc-assets.yum.com/15895bb59f7b4bb588ee933f8cd5344a/images/items/xl/D-K623.jpg?ver=19.25",
+        "title": "Classic Chicken Biryani Bucket",
+        "desc": "Hyderabadi style Biryani rice served with 1 pc Hot & Crispy & Spicy Gravy",
+        "categories": "Biryani_Buckets",
+        "price": 229.52,
+        "type": "Non veg",
+        "serve": "Serves 1",
+        "id": "d97c39be-7c54-4002-b1b1-7eaf4f4b4b3a"
+    },
+    {
+        "image": " https://orderserv-kfc-assets.yum.com/15895bb59f7b4bb588ee933f8cd5344a/images/items/xl/D-K624.jpg?ver=19.25",
+        "title": "Popcorn Chicken Biryani Bucket",
+        "desc": "Hyderabadi style Biryani rice served with Popcorn & Spicy Gravy",
+        "categories": "Biryani_Buckets",
+        "price": 229.52,
+        "type": "Non veg",
+        "serve": "Serves 1",
+        "id": "990e2df2-0254-4bff-b8ec-dd5ea1eeeefb"
+    },
+    {
+        "image": " https://orderserv-kfc-assets.yum.com/15895bb59f7b4bb588ee933f8cd5344a/images/items/xl/D-K625.jpg?ver=19.25\t",
+        "title": "Smoky Grilled Biryani Bucket",
+        "desc": "Hyderabadi style Biryani rice served with 1 pc Smoky Red & Spicy Gravy",
+        "categories": "Biryani_Buckets",
+        "price": 229.52,
+        "type": "Non veg",
+        "serve": "Serves 1",
+        "id": "99c2cf79-e004-4654-9a49-38cb31a6340a"
+    },
+    {
+        "image": " https://orderserv-kfc-assets.yum.com/15895bb59f7b4bb588ee933f8cd5344a/images/items/xl/D-K622.jpg?ver=19.25\t",
+        "title": " D-K622.jpg?ver=19.25",
+        "desc": "Hyderabadi style Biryani rice served with Veg Patty & Spicy Gravy",
+        "categories": "Biryani_Buckets",
+        "price": 188.57,
+        "type": " veg",
+        "serve": "Serves 1",
+        "id": "6557dc48-9e75-47d6-980b-b0ef612a93c5"
+    },
+    {
+        "image": " https://orderserv-kfc-assets.yum.com/15895bb59f7b4bb588ee933f8cd5344a/images/items/xl/D-PR00002167.jpg?ver=19.25\t",
+        "title": "All Chicken Box",
+        "desc": "A Box with your favorites! Get 1 pc Hot & Crispy, 2 Hot Wings & 1 Chicken Strip at a deal price",
+        "categories": "BOX_MEALS",
+        "price": 189.52,
+        "type": "Non veg",
+        "serve": "",
+        "id": "2c108f1f-93ea-4e76-b59c-9174d8efb7f2"
+    },
+    {
+        "image": " https://orderserv-kfc-assets.yum.com/15895bb59f7b4bb588ee933f8cd5344a/images/items/xl/D-PR00001003.jpg?ver=19.25",
+        "title": "Zinger Tandoori Box",
+        "desc": "A deal for the Tandoori lovers : Get 1 Tandoori Zinger, 2 Hot Wings, 1 Veg Patty & Pepsi",
+        "categories": "BOX_MEALS",
+        "price": 313.33,
+        "type": "Non veg",
+        "serve": "",
+        "id": "5a70abf8-6592-4c9c-88a6-7df5d1628198"
+    },
+    {
+        "image": " https://orderserv-kfc-assets.yum.com/15895bb59f7b4bb588ee933f8cd5344a/images/items/xl/D-PR00001039.jpg?ver=19.25\t",
+        "title": "Popcorn Biryani Box",
+        "desc": "Biryani lovers unite : Get 1 Popcorn Biryani Bucket with gravy, 2 Hot Wings & Pepsi",
+        "categories": "BOX_MEALS",
+        "price": 328.57,
+        "type": "Non veg",
+        "serve": "Serves 2",
+        "id": "cbe6091f-35c6-4962-9a91-d33e7a7717b4"
+    },
+    {
+        "image": " https://orderserv-kfc-assets.yum.com/15895bb59f7b4bb588ee933f8cd5344a/images/items/xl/D-PR00001004.jpg?ver=19.25\t",
+        "title": "Veg Zinger Box",
+        "desc": "A deal for the Veg Zinger lovers : Get 1 Veg Zinger, 2 Veg Patties & a Pepsi",
+        "categories": "BOX_MEALS",
+        "price": 313.33,
+        "type": " veg",
+        "serve": "",
+        "id": "4f8b37c3-691a-4026-8e05-44c51779b76b"
+    },
+    {
+        "image": " https://orderserv-kfc-assets.yum.com/15895bb59f7b4bb588ee933f8cd5344a/images/items/xl/D-PR00001038.jpg?ver=19.25",
+        "title": "Veg Biryani Box",
+        "desc": "Biryani lovers unite : Get 1 Veg Biryani Bucket with gravy, 1 Veg Patty & a Pepsi",
+        "categories": "BOX_MEALS",
+        "price": 279.05,
+        "type": "Non veg",
+        "serve": "",
+        "id": "44f37f2a-557f-4e3b-b1d0-792515408b7d"
+    },
+    {
+        "image": " https://orderserv-kfc-assets.yum.com/15895bb59f7b4bb588ee933f8cd5344a/images/items/xl/D-PR00001025.jpg?ver=19.25",
+        "title": "2 Chicken Krisper Burgers",
+        "desc": "2 delicious chicken value burgers - at a deal price",
+        "categories": "BURGERS",
+        "price": 228.57,
+        "type": "Non veg",
+        "serve": "",
+        "id": "66637677-6ac5-4a78-9b3a-3c31a76db2f3"
+    },
+    {
+        "image": " https://orderserv-kfc-assets.yum.com/15895bb59f7b4bb588ee933f8cd5344a/images/items/xl/D-PR00001022.jpg?ver=19.25",
+        "title": "2 Veg Krisper Burgers",
+        "desc": "2 delicious veg value burgers - at a deal price",
+        "categories": "BURGERS",
+        "price": 158.1,
+        "type": "Veg",
+        "serve": "",
+        "id": "5bd1fc91-259f-4716-8744-d9c5fbbaad1d"
+    },
+    {
+        "image": " https://orderserv-kfc-assets.yum.com/15895bb59f7b4bb588ee933f8cd5344a/images/items/xl/D-PR00001027.jpg?ver=19.25\t",
+        "title": "Chicken & Krispers Combo",
+        "desc": "Deal combo of 2 chicken value burgers, 2 pc Hot & Crispy, 2 dips & a chilled Pepsi PET",
+        "categories": "BURGERS",
+        "price": 519.05,
+        "type": "Non veg",
+        "serve": "",
+        "id": "43c1f607-77e7-42e9-9723-d642483964e3"
+    },
+    {
+        "image": " https://orderserv-kfc-assets.yum.com/15895bb59f7b4bb588ee933f8cd5344a/images/items/xl/D-K540.jpg?ver=19.25\t",
+        "title": "Tandoori Zinger Burger",
+        "desc": "Chicken zinger with a delicious tandoori sauce",
+        "categories": "BURGERS",
+        "price": 199.05,
+        "type": "Non veg",
+        "serve": "",
+        "id": "71786ca0-7d78-4508-b832-e784bc4abd62"
+    },
+    {
+        "image": " https://orderserv-kfc-assets.yum.com/15895bb59f7b4bb588ee933f8cd5344a/images/items/xl/D-PR00000956.jpg?ver=19.25",
+        "title": "Mixed Zinger Doubles",
+        "desc": "Best-seller combo of classic chicken zinger & tandoori zinger",
+        "categories": "BURGERS",
+        "price": 348.57,
+        "type": "Non veg",
+        "serve": "",
+        "id": "75497721-f965-49bf-ac68-c5a722df22d2"
+    },
+    {
+        "image": " https://orderserv-kfc-assets.yum.com/15895bb59f7b4bb588ee933f8cd5344a/images/items/xl/D-K439.jpg?ver=19.25\t",
+        "title": "Classic Zinger Burger",
+        "desc": "Signature burger made with a crunchy chicken fillet, veggies & a delicious mayo sauce",
+        "categories": "BURGERS",
+        "price": 189.52,
+        "type": "Non veg",
+        "serve": "",
+        "id": "71c07a69-e8f8-475e-b659-2877991de72a"
+    },
+    {
+        "image": " https://orderserv-kfc-assets.yum.com/15895bb59f7b4bb588ee933f8cd5344a/images/items/xl/D-PR00000730.jpg?ver=19.25",
+        "title": "Buddy Meal",
+        "desc": "Share 2 Classic Chicken Zingers & a Medium Popcorn in this delightful combo for 2",
+        "categories": "BURGERS",
+        "price": 499.05,
+        "type": "Non veg",
+        "serve": "",
+        "id": "637d201test_imaged-f0b6-4071-a1da-e26e646ba8b9"
+    },
+    {
+        "image": " https://orderserv-kfc-assets.yum.com/15895bb59f7b4bb588ee933f8cd5344a/images/items/xl/D-K146.jpg?ver=19.25",
+        "title": "Veg Zinger Burger",
+        "desc": "Signature veg burger with crispy patties, veggies & a tangy sauce",
+        "categories": "BURGERS",
+        "price": 179.05,
+        "type": "Veg",
+        "serve": "",
+        "id": "f9848bec-a468-408c-b9b1-0d9c93f00056"
+    },
+    {
+        "image": " https://orderserv-kfc-assets.yum.com/15895bb59f7b4bb588ee933f8cd5344a/images/items/xl/D-PR00001023.jpg?ver=19.25\t",
+        "title": "2 Veg Krispers Meal",
+        "desc": "2 veg value burgers, crispy medium fries & 2 delicious dips at a deal price!",
+        "categories": "BURGERS",
+        "price": 268.57,
+        "type": "Veg",
+        "serve": "",
+        "id": "5f7112d2-ebea-48ae-9d59-9a6243728b7a"
+    },
+    {
+        "image": "https://orderserv-kfc-assets.yum.com/15895bb59f7b4bb588ee933f8cd5344a/images/items/xl/D-PR00002153.jpg?ver=19.25",
+        "title": "Peri Peri 10 Strips with Dynamite",
+        "desc": "10 Spicy Peri Peri chicken strips & our Dynamite Spicy Mayo Sauce Bottle",
+        "categories": "CHICKEN",
+        "price": 639,
+        "type": "Non veg",
+        "serve": "Serves 2-3",
+        "id": "5ceaa803-485a-40d9-81da-6f363ecb3509"
+    },
+    {
+        "image": "https://orderserv-kfc-assets.yum.com/15895bb59f7b4bb588ee933f8cd5344a/images/items/xl/D-PR00000892.jpg?ver=19.25",
+        "title": "Bucket for Two",
+        "desc": "Flat Rs. 115 off on combo of 2pc Hot & Crispy, 2 pc Smoky Red Chicken & Large Popcorn",
+        "categories": "CHICKEN",
+        "price": 599.05,
+        "type": "Non veg",
+        "serve": "Serves 2-3",
+        "id": "94c93695-f4df-43cf-a9e3-6d9db4a4b946"
+    },
+    {
+        "image": "https://orderserv-kfc-assets.yum.com/15895bb59f7b4bb588ee933f8cd5344a/images/items/xl/D-PR00002154.jpg?ver=19.25",
+        "title": "Peri Peri 10 Strips with Nashville",
+        "desc": "10 Spicy Peri Peri chicken strips & our Nashville Hot Sauce Bottle",
+        "categories": "CHICKEN",
+        "price": 639.05,
+        "type": "Non veg",
+        "serve": "Serves 2-3",
+        "id": "04d097ab-c90test_imaged-463a-8900-94977bbf07ce"
+    },
+    {
+        "image": "https://orderserv-kfc-assets.yum.com/15895bb59f7b4bb588ee933f8cd5344a/images/items/xl/D-PR00002155.jpg?ver=19.25",
+        "title": "Peri Peri 10 Leg Pc & 4 Dips",
+        "desc": "Leg before any wicket! Save 27% on 10 Spicy Peri Peri Leg Pieces & 4 Dips",
+        "categories": "CHICKEN",
+        "price": 924.76,
+        "type": "Non veg",
+        "serve": "Serves 3-4",
+        "id": "deac6783-7811-419c-8516-052164a0ab25"
+    },
+    {
+        "image": "https://orderserv-kfc-assets.yum.com/15895bb59f7b4bb588ee933f8cd5344a/images/items/xl/D-PR00002156.jpg?ver=19.25",
+        "title": "Peri Peri 5 Leg Pc Meal",
+        "desc": "5 Spicy Peri Peri Leg Pieces, 2 Dips, 1 Med Fries & a Pepsi PET",
+        "categories": "CHICKEN",
+        "price": 628.57,
+        "type": "Non veg",
+        "serve": "Serves 2-3",
+        "id": "21a17664-78b5-4f1b-8f4c-a5ea3a07f0ce"
+    },
+    {
+        "image": "https://orderserv-kfc-assets.yum.com/15895bb59f7b4bb588ee933f8cd5344a/images/items/xl/D-PR00002157.jpg?ver=19.25",
+        "title": "Peri Peri 5 Leg Pc & 2 Dips",
+        "desc": "5 Spicy Peri Peri Leg Pieces, paired with 2 delicous dips",
+        "categories": "CHICKEN",
+        "price": 515.24,
+        "type": "Non veg",
+        "serve": "Serves 2",
+        "id": "ac143d0c-5d04-4508-80ae-882e2af21b30"
+    },
+    {
+        "image": "https://orderserv-kfc-assets.yum.com/15895bb59f7b4bb588ee933f8cd5344a/images/items/xl/D-PR00000854.jpg?ver=19.25",
+        "title": "Big 12",
+        "desc": "Save 28% on 6pc Hot & Crispy Chicken, 6 Hot Wings & 2 dips",
+        "categories": "CHICKEN",
+        "price": 719.05,
+        "type": "Non veg",
+        "serve": "Serves 2-3",
+        "id": "811090a3-b41b-4975-a37b-98158567c447"
+    },
+    {
+        "image": "https://orderserv-kfc-assets.yum.com/15895bb59f7b4bb588ee933f8cd5344a/images/items/xl/D-PR00002161.jpg?ver=19.25",
+        "title": "Ultimate Savings Bucket",
+        "desc": "Save 33% on signature bucket of 4pc Hot & crispy, 6 Wings, 4 strips, 2 Dips & Pepsi PET",
+        "categories": "CHICKEN",
+        "price": 699.05,
+        "type": "Non veg",
+        "serve": "Serves 2-3",
+        "id": "1542bf48-3d46-4463-86d2-ef353d80aa3c"
+    },
+    {
+        "image": "https://orderserv-kfc-assets.yum.com/15895bb59f7b4bb588ee933f8cd5344a/images/items/xl/D-PR00000891.jpg?ver=19.25",
+        "title": "Big 8",
+        "desc": "Save 29% on this variety bucket of 4pc Hot & Crispy chicken & 4pc Smoky Red chicken",
+        "categories": "CHICKEN",
+        "price": 684,
+        "type": "Non veg",
+        "serve": "Serves 2-3",
+        "id": "454b8faf-6096-4af6-91f4-869f3f446436"
+    },
+    {
+        "image": " https://orderserv-kfc-assets.yum.com/15895bb59f7b4bb588ee933f8cd5344a/images/items/xl/D-K445.jpg?ver=19.25",
+        "title": "5pc Smoky Red Chicken",
+        "desc": "Flat 20% off on 5pc Smoky red grilled chicken",
+        "categories": "CHICKEN",
+        "price": 499.05,
+        "type": "Non veg",
+        "serve": "Serves 2",
+        "id": "f34db1c3-03a6-40b1-81ab-f76a9b1ccad0"
+    },
+    {
+        "image": "https://orderserv-kfc-assets.yum.com/15895bb59f7b4bb588ee933f8cd5344a/images/items/xl/D-PR00002162.jpg?ver=19.25",
+        "title": "Mingles Bucket Meal",
+        "desc": "Save Rs. 71 on 4 Hot Wings, 2 Chicken Strips, Reg Popcorn, medium fries & Pepsi PET",
+        "categories": "CHICKEN",
+        "price": 479.05,
+        "type": "Non veg",
+        "serve": "Serves 2",
+        "id": "ca8193e4-e805-4781-914c-819a9c3ae431"
+    },
+    {
+        "image": " https://orderserv-kfc-assets.yum.com/15895bb59f7b4bb588ee933f8cd5344a/images/items/xl/D-K009.jpg?ver=19.25",
+        "title": "8 pc Hot & Crispy Chicken",
+        "desc": "Save Rs. 182 & get 8pc signature Hot & crispy chicken",
+        "categories": "CHICKEN",
+        "price": 748.57,
+        "type": "Non veg",
+        "serve": "Serves 3-4",
+        "id": "2e5f4722-b177-4ba1-abb9-310b1cf1f3a3"
+    },
+    {
+        "image": " https://orderserv-kfc-assets.yum.com/15895bb59f7b4bb588ee933f8cd5344a/images/items/xl/D-K012.jpg?ver=19.25",
+        "title": "6 pc Hot & Crispy Chicken",
+        "desc": "Flat 10% off on 6pc signature Hot & crispy chicken",
+        "categories": "CHICKEN",
+        "price": 619.05,
+        "type": "Non veg",
+        "serve": "Serves 2-3",
+        "id": "8059ac32-a616-4194-b346-da8131d288d4"
+    },
+    {
+        "image": " https://orderserv-kfc-assets.yum.com/15895bb59f7b4bb588ee933f8cd5344a/images/items/xl/D-PR00002102.jpg?ver=19.25",
+        "title": "Buddy Popcorn Nachos Meal",
+        "desc": "Two ka crunch, in one munch- for 2! Combo of 2 new Popcorn Nachos & a Pepsi PET",
+        "categories": "NEWLUNCH",
+        "price": 399,
+        "type": "Non veg",
+        "serve": "Serves 2",
+        "id": "4f8d858f-01e1-4f07-9618-6d9af596a5e5"
+    },
+    {
+        "image": " https://orderserv-kfc-assets.yum.com/15895bb59f7b4bb588ee933f8cd5344a/images/items/xl/D-PR00002153.jpg?ver=19.25\t",
+        "title": "Peri Peri 10 Strips with Dynamite",
+        "desc": "10 Spicy Peri Peri chicken strips & our Dynamite Spicy Mayo Sauce Bottle",
+        "categories": "NEWLUNCH",
+        "price": 639.05,
+        "type": "Non veg",
+        "serve": "Serves 2-3",
+        "id": "818fb8b3-824b-47etest_imaged-956e-94dd9d744c14"
+    },
+    {
+        "image": " https://orderserv-kfc-assets.yum.com/15895bb59f7b4bb588ee933f8cd5344a/images/items/xl/D-PR00002103.jpg?ver=19.25",
+        "title": "Popcorn Nachos & Wings Combo",
+        "desc": "New Popcorn Nachos, 3pc Wings & 1 Pepsi PET in this delightful snack combo!",
+        "categories": "NEWLUNCH",
+        "price": 349,
+        "type": "Non veg",
+        "serve": "Serves 1-2",
+        "id": "41977483-0187-476e-b807-291e48a5ab90"
+    },
+    {
+        "image": " https://orderserv-kfc-assets.yum.com/15895bb59f7b4bb588ee933f8cd5344a/images/items/xl/D-PR00002154.jpg?ver=19.25\t",
+        "title": "Peri Peri 10 Strips with Nashville",
+        "desc": "10 Spicy Peri Peri chicken strips & our Nashville Hot Sauce Bottle",
+        "categories": "NEWLUNCH",
+        "price": 639.05,
+        "type": "Non veg",
+        "serve": "Serves 2-3",
+        "id": "ebf179b4-0117-49ba-aede-abbfa676341d"
+    },
+    {
+        "image": " https://orderserv-kfc-assets.yum.com/15895bb59f7b4bb588ee933f8cd5344a/images/items/xl/D-K664.jpg?ver=19.25",
+        "title": "Popcorn Nachos",
+        "desc": "Crunchy popcorn & 2 delicious sauces paired with masala Doritos. 2 ka crunch, in 1 munch!",
+        "categories": "NEWLUNCH",
+        "price": 169,
+        "type": "Non veg",
+        "serve": "",
+        "id": "e6fb0fetest_imaged-8135-4e3e-8810-ffebdd08e464"
+    },
+    {
+        "image": " https://orderserv-kfc-assets.yum.com/15895bb59f7b4bb588ee933f8cd5344a/images/items/xl/D-PR00002155.jpg?ver=19.25",
+        "title": "Peri Peri 10 Strips with Nashville",
+        "desc": "Leg before any wicket! Save 27% on 10 Spicy Peri Peri Leg Pieces & 4 Dips",
+        "categories": "NEWLUNCH",
+        "price": 924.76,
+        "type": "Non veg",
+        "serve": "Serves 3-4",
+        "id": "3fc9ee33-e996-4654-a890-d7baa08ccaae"
+    },
+    {
+        "image": " https://orderserv-kfc-assets.yum.com/15895bb59f7b4bb588ee933f8cd5344a/images/items/xl/D-PR00002156.jpg?ver=19.25\t",
+        "title": "Peri Peri 5 Leg Pc Meal",
+        "desc": "5 Spicy Peri Peri Leg Pieces, 2 Dips, 1 Med Fries & a Pepsi PET",
+        "categories": "NEWLUNCH",
+        "price": 628.57,
+        "type": "Non veg",
+        "serve": "Serves 2",
+        "id": "fb720f0b-d458-4e36-8de5-3d8c6bb7dcd4"
+    },
+    {
+        "image": " https://orderserv-kfc-assets.yum.com/15895bb59f7b4bb588ee933f8cd5344a/images/items/xl/D-PR00002157.jpg?ver=19.25\t",
+        "title": "Peri Peri 5 Leg Pc & 2 Dips",
+        "desc": "5 Spicy Peri Peri Leg Pieces, paired with 2 delicous dips",
+        "categories": "NEWLUNCH",
+        "price": 515.24,
+        "type": "Non veg",
+        "serve": "Serves 2",
+        "id": "3e7a7e20-e280-4691-9628-954e2e794787"
+    },
+    {
+        "image": " https://orderserv-kfc-assets.yum.com/15895bb59f7b4bb588ee933f8cd5344a/images/items/xl/D-PR00002093.jpg?ver=19.25\t",
+        "title": "6pc Hot & Crispy with Dynamite Sauce",
+        "desc": "6pc Hot & Crispy Chicken paired with our new Dynamite Spicy Mayo Sauce Bottle",
+        "categories": "NEWLUNCH",
+        "price": 779.05,
+        "type": "Non veg",
+        "serve": "Serves 3",
+        "id": "36141953-f691-4b3test_imaged-8392-4e7d41dd830d"
+    },
+    {
+        "image": " https://orderserv-kfc-assets.yum.com/15895bb59f7b4bb588ee933f8cd5344a/images/items/xl/D-PR00002158.jpg?ver=19.25\t",
+        "title": "Peri Peri 6pc Chicken Strips",
+        "desc": "6 Spicy Peri Peri chicken strips",
+        "categories": "NEWLUNCH",
+        "price": 279.05,
+        "type": "Non veg",
+        "serve": "Serves 2",
+        "id": "fc624c4test_imaged-b739-47e0-9a1a-91d68b547a93"
+    },
+    {
+        "image": " https://orderserv-kfc-assets.yum.com/15895bb59f7b4bb588ee933f8cd5344a/images/items/xl/D-PR00002094.jpg?ver=19.25\t",
+        "title": "6pc Hot & Crispy with Nashville Sauce",
+        "desc": "6pc Hot & Crispy Chicken paired with our new Nashville Hot Pepper Sauce Bottle",
+        "categories": "NEWLUNCH",
+        "price": 779.05,
+        "type": "Non veg",
+        "serve": "Serves 2",
+        "id": "427e5715-f589-4cbb-a7ae-678e130c5d3f"
+    },
+    {
+        "image": " https://orderserv-kfc-assets.yum.com/15895bb59f7b4bb588ee933f8cd5344a/images/items/xl/D-PR00002164.jpg?ver=19.25",
+        "title": "Solo Feast",
+        "desc": "Treat yourself with 1 Hot & Crispy, 2 Strips, 2 Wings, 1 Buttered Bun, 1 Dip & Pepsi PET",
+        "categories": "NEWLUNCH",
+        "price": 399.05,
+        "type": "Non veg",
+        "serve": "Serves 2",
+        "id": "24d39b66-e442-4376-9617-9068141b3a62"
+    },
+    {
+        "image": " https://orderserv-kfc-assets.yum.com/15895bb59f7b4bb588ee933f8cd5344a/images/items/xl/D-PR00002165.jpg?ver=19.25\t",
+        "title": "Strips & Rice Combo",
+        "desc": "4 strips, 1 Dips, flavorful Rice & Gravy at a deal price",
+        "categories": "NEWLUNCH",
+        "price": 359.06,
+        "type": "Non veg",
+        "serve": "Serves 2",
+        "id": "87981d85-85d9-4f47-a359-6a8b2a9379a0"
+    },
+    {
+        "image": " https://orderserv-kfc-assets.yum.com/15895bb59f7b4bb588ee933f8cd5344a/images/items/xl/D-PR00002172.jpg?ver=19.25",
+        "title": "Friendship Bucket with Dynamite Sauce",
+        "desc": "3pc Hot & Crispy, 3 Wings, 3 Strips, Large Popcorn & our new Dynamite Mayo Bottle",
+        "categories": "NEWLUNCH",
+        "price": 879.05,
+        "type": "Non veg",
+        "serve": "Serves 3-4",
+        "id": "10027963-0c3b-438f-a537-79b0922db369"
+    },
+    {
+        "image": " https://orderserv-kfc-assets.yum.com/15895bb59f7b4bb588ee933f8cd5344a/images/items/xl/D-PR00002172.jpg?ver=19.25",
+        "title": "Friendship Bucket with Nashville Sauce",
+        "desc": "3pc Hot & Crispy, 3 Wings, 3 Strips, Large Popcorn & our new Dynamite Mayo Bottle",
+        "categories": "NEWLUNCH",
+        "price": 879.05,
+        "type": "Non veg",
+        "serve": "Serves 3-4",
+        "id": "5c7c88d8-2f02-4925-8c4test_imaged-fbb841ae71f6"
+    },
+    {
+        "image": " https://orderserv-kfc-assets.yum.com/15895bb59f7b4bb588ee933f8cd5344a/images/items/xl/D-PR00000789.jpg?ver=19.25",
+        "title": "Chicken & Fries Bucket",
+        "desc": "Crowd-favorite combo of 2pc Hot & Crispy chicken with Medium Fries",
+        "categories": "SNACKS",
+        "price": 299.05,
+        "type": "Non veg",
+        "serve": "",
+        "id": "f9f3c96c-d3aa-4b05-a56b-03abc14767fb"
+    },
+    {
+        "image": " https://orderserv-kfc-assets.yum.com/15895bb59f7b4bb588ee933f8cd5344a/images/items/xl/D-PR00000792.jpg?ver=19.25",
+        "title": "Popcorn & Fries bucket",
+        "desc": "Large Chicken Popcorn with Med Fries - at a deal price",
+        "categories": "SNACKS",
+        "price": 319.05,
+        "type": "Non veg",
+        "serve": "",
+        "id": "dd99557d-c013-4070-adbd-b58a8515cdf6"
+    },
+    {
+        "image": " https://orderserv-kfc-assets.yum.com/15895bb59f7b4bb588ee933f8cd5344a/images/items/xl/D-K264.jpg?ver=19.25",
+        "title": "Mingles Bucket",
+        "desc": "Save 13% on this mingle of 4 Wings, 2 Strips & a Reg Popcorn",
+        "categories": "SNACKS",
+        "price": 339.05,
+        "type": "Non veg",
+        "serve": "Serves1-2",
+        "id": "ef74d97c-fea6-4a12-9fdd-5ee44af2ff33"
+    },
+    {
+        "image": " https://orderserv-kfc-assets.yum.com/15895bb59f7b4bb588ee933f8cd5344a/images/items/xl/D-K264.jpg?ver=19.25",
+        "title": "Mingles Bucket",
+        "desc": "Save 13% on this mingle of 4 Wings, 2 Strips & a Reg Popcorn",
+        "categories": "SNACKS",
+        "price": 339.05,
+        "type": "Non veg",
+        "serve": "Serves1-2",
+        "id": "0bd55bf2-de17-4914-9609-142ecf7783c0"
+    },
+    {
+        "image": "https://orderserv-kfc-assets.yum.com/15895bb59f7b4bb588ee933f8cd5344a/images/items/xl/D-K008.jpg?ver=19.25\t",
+        "title": "4pc Hot & Crispy Chicken",
+        "desc": "4 pcs of signature Hot & crispy chicken at a deal price",
+        "categories": "SNACKS",
+        "price": 428.57,
+        "type": "Non veg",
+        "serve": "",
+        "id": "1ae752c6-aeb2-4e47-a3ff-9a78661606fc"
+    },
+    {
+        "image": "https://orderserv-kfc-assets.yum.com/15895bb59f7b4bb588ee933f8cd5344a/images/items/xl/D-K223.jpg?ver=19.25",
+        "title": "Large Popcorn",
+        "desc": "Signature bite-sized boneless chicken, with special spices",
+        "categories": "SNACKS",
+        "price": 228.57,
+        "type": "Non veg",
+        "serve": "",
+        "id": "7b2f625f-866f-472c-aeab-1fbb6fb40a88"
+    },
+    {
+        "image": "https://orderserv-kfc-assets.yum.com/15895bb59f7b4bb588ee933f8cd5344a/images/items/xl/D-K137.jpg?ver=19.25\t",
+        "title": "Medium Popcorn",
+        "desc": "Signature bite-sized boneless chicken, with special spices",
+        "categories": "SNACKS",
+        "price": 164.76,
+        "type": "Non veg",
+        "serve": "",
+        "id": "32eef695-9f55-4f24-afd6-1549f72c0400"
+    },
+    {
+        "image": "https://orderserv-kfc-assets.yum.com/15895bb59f7b4bb588ee933f8cd5344a/images/items/xl/D-K136.jpg?ver=19.25",
+        "title": "Regular Popcorn",
+        "desc": "Signature bite-sized boneless chicken, with special spices",
+        "categories": "SNACKS",
+        "price": 115.24,
+        "type": "Non veg",
+        "serve": "",
+        "id": "d93bad90-435d-43f2-9548-09de193049b9"
+    },
+    {
+        "image": "https://orderserv-kfc-assets.yum.com/15895bb59f7b4bb588ee933f8cd5344a/images/items/xl/D-K138.jpg?ver=19.25\t",
+        "title": "Large Fries",
+        "desc": "Jazz up your meal with crispy large fries!",
+        "categories": "SNACKS",
+        "price": 119.05,
+        "type": "Veg",
+        "serve": "",
+        "id": "d99ecf73-4aa6-4646-82c3-993e96450f64"
+    },
+    {
+        "image": "https://orderserv-kfc-assets.yum.com/15895bb59f7b4bb588ee933f8cd5344a/images/items/xl/D-K444.jpg?ver=19.25",
+        "title": "2 pcs Smoky Red Chicken",
+        "desc": "Spicy, red, grilled chicken",
+        "categories": "SNACKS",
+        "price": 248.57,
+        "type": "Non veg",
+        "serve": "",
+        "id": "63fbb9e6-0017-41aa-901c-41aae6404866"
+    },
+    {
+        "image": "https://orderserv-kfc-assets.yum.com/15895bb59f7b4bb588ee933f8cd5344a/images/items/xl/D-K016.jpg?ver=19.25",
+        "title": "Medium Fries",
+        "desc": "Jazz up your meal with Crispy Fries!",
+        "categories": "SNACKS",
+        "price": 99.05,
+        "type": "Veg",
+        "serve": "",
+        "id": "50c7ffa9-89a3-4411-af51-3b838a501bfa"
+    },
+    {
+        "image": "https://orderserv-kfc-assets.yum.com/15895bb59f7b4bb588ee933f8cd5344a/images/items/xl/D-K007.jpg?ver=19.25",
+        "title": "2 pc Hot & Crispy Chicken",
+        "desc": "Signature Hot & crispy chicken",
+        "categories": "SNACKS",
+        "price": 229.52,
+        "type": "Non veg",
+        "serve": "",
+        "id": "63e42cd0-68ca-4280-90a7-c3c354709636"
+    },
+    {
+        "image": "https://orderserv-kfc-assets.yum.com/15895bb59f7b4bb588ee933f8cd5344a/images/items/xl/D-K443.jpg?ver=19.25",
+        "title": "1 pc Smoky Red Chicken",
+        "desc": "Spicy, red, grilled chicken",
+        "categories": "SNACKS",
+        "price": 124.76,
+        "type": "Non veg",
+        "serve": "",
+        "id": "83d12496-e327-4fc3-a7cd-1c5729f72cb0"
+    },
+    {
+        "image": "https://orderserv-kfc-assets.yum.com/15895bb59f7b4bb588ee933f8cd5344a/images/items/xl/D-K303.jpg?ver=19.25",
+        "title": "4pc Hot Chicken Wings",
+        "desc": "Seasoned, signature KFC chicken wings",
+        "categories": "SNACKS",
+        "price": 164.76,
+        "type": "Non veg",
+        "serve": "",
+        "id": "979f40a9-e5ae-4ed1-a882-99716b68a46f"
+    },
+    {
+        "image": "https://orderserv-kfc-assets.yum.com/15895bb59f7b4bb588ee933f8cd5344a/images/items/xl/D-K496.jpg?ver=19.25\t",
+        "title": "Choco Mud Pie",
+        "desc": "Chocolate lovers unite! Say hello to our creamy chocolate & cake dessert- a must try!",
+        "categories": "SNACKS",
+        "price": 128.57,
+        "type": "Veg",
+        "serve": "",
+        "id": "47deb483-6f28-47c7-9d93-036d03697e79"
+    },
+    {
+        "image": "https://orderserv-kfc-assets.yum.com/15895bb59f7b4bb588ee933f8cd5344a/images/items/xl/D-PR00002159.jpg?ver=19.25\t",
+        "title": "Peri Peri 3pc Chicken Strips",
+        "desc": "3 Spicy Peri Peri chicken strips",
+        "categories": "SNACKS",
+        "price": 175.24,
+        "type": "Non veg",
+        "serve": "",
+        "id": "775fd739-fd4c-4fc5-8342-190127880b88"
+    },
+    {
+        "image": "https://orderserv-kfc-assets.yum.com/15895bb59f7b4bb588ee933f8cd5344a/images/items/xl/D-K351.jpg?ver=19.25\t",
+        "title": "2 pc Veg Patty",
+        "desc": "Delicious, crispy, veg add-on",
+        "categories": "SNACKS",
+        "price": 155.24,
+        "type": "Veg",
+        "serve": "",
+        "id": "b8c19df9-881a-4c2f-8e45-b97589f13678"
+    },
+    {
+        "image": "https://orderserv-kfc-assets.yum.com/15895bb59f7b4bb588ee933f8cd5344a/images/items/xl/D-K497.jpg?ver=19.25",
+        "title": "Coffee Mousse Cake",
+        "desc": "Coffee, chocolate, cake…whats not to love? Enjoy this for coffee-licious temptations!",
+        "categories": "SNACKS",
+        "price": 128.57,
+        "type": "Veg",
+        "serve": "",
+        "id": "17cc2a0b-2fc8-4566-8c89-9ffa810ffc39"
+    },
+    {
+        "image": "https://orderserv-kfc-assets.yum.com/15895bb59f7b4bb588ee933f8cd5344a/images/items/xl/D-K616.jpg?ver=19.25\t",
+        "title": "Tandoori Masala Dip",
+        "desc": "Special tandoori flavor dip to add a twist to your meal",
+        "categories": "SNACKS",
+        "price": 28.57,
+        "type": "Veg",
+        "serve": "",
+        "id": "2aff59d2-f993-4b3d-af07-5f4eb1784815"
+    },
+    {
+        "image": "https://orderserv-kfc-assets.yum.com/15895bb59f7b4bb588ee933f8cd5344a/images/items/xl/D-PR00000852.jpg?ver=19.25\t",
+        "title": "Pack of 4 Dips",
+        "desc": "Adding dips is always a good idea!",
+        "categories": "SNACKS",
+        "price": 109.52,
+        "type": "Veg",
+        "serve": "",
+        "id": "60242686-e98e-41d0-865b-91d482d094ad"
+    },
+    {
+        "image": "https://orderserv-kfc-assets.yum.com/15895bb59f7b4bb588ee933f8cd5344a/images/items/xl/D-K662.jpg?ver=19.25\t",
+        "title": "Nashville Hot Pepper Dip",
+        "desc": "Hot, peppery goodness of Nashville - our new signature dip",
+        "categories": "SNACKS",
+        "price": 28.57,
+        "type": "Veg",
+        "serve": "",
+        "id": "dbcdec80-7e8d-4606-ba6b-c7c8afe97cdc"
+    },
+    {
+        "image": "https://orderserv-kfc-assets.yum.com/15895bb59f7b4bb588ee933f8cd5344a/images/items/xl/D-PR00000853.jpg?ver=19.25\t",
+        "title": "Pack of 2 Dips",
+        "desc": "Adding dips is always a good idea!",
+        "categories": "SNACKS",
+        "price": 57.14,
+        "type": "Veg",
+        "serve": "",
+        "id": "007f6dd1-c22a-4a22-a7eb-c42c45f7b49b"
+    },
+    {
+        "image": "https://orderserv-kfc-assets.yum.com/15895bb59f7b4bb588ee933f8cd5344a/images/items/xl/D-K661.jpg?ver=19.25",
+        "title": "Dynamite Spicy Mayo Dip",
+        "desc": "Spicy, punchy mayo -our new signature dip",
+        "categories": "SNACKS",
+        "price": 28.57,
+        "type": "Veg",
+        "serve": "",
+        "id": "ae37413f-93a9-47bb-967e-82ab63a076c2"
+    },
+    {
+        "image": "https://orderserv-kfc-assets.yum.com/15895bb59f7b4bb588ee933f8cd5344a/images/items/xl/D-K678.jpg?ver=19.25",
+        "title": "Buttered Bun",
+        "desc": "Buttered, soft bun - pairs well with all things KFC",
+        "categories": "SNACKS",
+        "price": 35.23,
+        "type": "Veg",
+        "serve": "",
+        "id": "50a807be-94ab-4ed0-9564-0a1455b352c9"
+    },
+    {
+        "image": "https://orderserv-kfc-assets.yum.com/15895bb59f7b4bb588ee933f8cd5344a/images/items/xl/D-K677.jpg?ver=19.25\t",
+        "title": "Biryani Rice",
+        "desc": "Flavorful aromatic rice to pair with your KFC favorites",
+        "categories": "SNACKS",
+        "price": 139.04,
+        "type": "Veg",
+        "serve": "",
+        "id": "13df2fae-b21d-4e3a-85c4-f41ba3280161"
+    },
+    {
+        "image": " https://orderserv-kfc-assets.yum.com/15895bb59f7b4bb588ee933f8cd5344a/images/items/xl/D-PR00002166.jpg?ver=19.25",
+        "title": "Classic Biryani Combo",
+        "desc": "Large portions of Biryani rice with 2 pc Hot & Crispy, 2 Gravies, 4 Strips & Pepsi PET",
+        "categories": "STAY_HOME",
+        "price": 740,
+        "type": "Non veg",
+        "serve": "Serves 2-3",
+        "id": "9dd7f210-53ea-4156-b119-6d6ccf6d22eb"
+    },
+    {
+        "image": " https://orderserv-kfc-assets.yum.com/15895bb59f7b4bb588ee933f8cd5344a/images/items/xl/D-PR00002000.jpg?ver=19.25",
+        "title": "Chick’n Wings Combo",
+        "desc": "Enjoy 2pc Hot & Crispy Chicken, 4 wings , 2 dips & a chilled Pepsi Black",
+        "categories": "STAY_HOME",
+        "price": 450.48,
+        "type": "Non veg",
+        "serve": "Serves 1-2",
+        "id": "dc40d42e-a3c1-4d09-b3e3-545a34d8a851"
+    },
+    {
+        "image": " https://orderserv-kfc-assets.yum.com/15895bb59f7b4bb588ee933f8cd5344a/images/items/xl/D-PR00002001.jpg?ver=19.25",
+        "title": "Classic Zinger Meal",
+        "desc": "Favorite combo of Classic Zinger Burger, Medium Fries & a chilled Pepsi Black",
+        "categories": "STAY_HOME",
+        "price": 344.76,
+        "type": "Non veg",
+        "serve": "Serves 1",
+        "id": "41c57ea3-4e42-4f8a-8fac-f66aaca00a26"
+    },
+    {
+        "image": " https://orderserv-kfc-assets.yum.com/15895bb59f7b4bb588ee933f8cd5344a/images/items/xl/D-PR00002017.jpg?ver=19.25",
+        "title": "Smoky Grilled Biryani Combo",
+        "desc": "Large portions of Biryani rice with 2 pc Smoky Red, 2 Gravies, Med Popcorn & Pepsi PET",
+        "categories": "STAY_HOME",
+        "price": 740,
+        "type": "Non veg",
+        "serve": "Serves 2-3",
+        "id": "ef7164a5-4eetest_imaged-437c-b27f-20f42088a86b"
+    },
+    {
+        "image": " https://orderserv-kfc-assets.yum.com/15895bb59f7b4bb588ee933f8cd5344a/images/items/xl/D-PR00002168.jpg?ver=19.25\t",
+        "title": "Super Snacker Combo",
+        "desc": "Best of snacks with a Medium Popcorn, 4 strips, 1 dip & a chilled Pepsi Black",
+        "categories": "STAY_HOME",
+        "price": 450.48,
+        "type": "Non veg",
+        "serve": "Serves 1-2",
+        "id": "301b1a33-c1e9-4674-b3f4-b6b37d522d4c"
+    },
+    {
+        "image": " https://orderserv-kfc-assets.yum.com/15895bb59f7b4bb588ee933f8cd5344a/images/items/xl/D-PR00002169.jpg?ver=19.25",
+        "title": "Stay Home Bucket",
+        "desc": "Save 21% on 4pc Hot & Crispy, 4 Wings, 6 Chicken Strips & 2 dips",
+        "categories": "STAY_HOME",
+        "price": 788.57,
+        "type": "Non veg",
+        "serve": "Serves 3",
+        "id": "884527ca-1d8c-4ff7-b8d4-cd822803c300"
+    },
+    {
+        "image": " https://orderserv-kfc-assets.yum.com/15895bb59f7b4bb588ee933f8cd5344a/images/items/xl/D-PR00000974.jpg?ver=19.25\t",
+        "title": "Family Feast",
+        "desc": "Family Deal of 3 chicken zingers, a medium popcorn, medium fries & a chilled Pepsi PET",
+        "categories": "STAY_HOME",
+        "price": 828.57,
+        "type": "Non veg",
+        "serve": "Serves 3",
+        "id": "ab03298b-f08a-4e5f-99f3-a3c4006e07f1"
+    },
+    {
+        "image": "https://orderserv-kfc-assets.yum.com/15895bb59f7b4bb588ee933f8cd5344a/images/items/xl/D-PR00002170.jpg?ver=19.25",
+        "title": "Chick'n Strips Solo Combo",
+        "desc": "Go solo with 1 pc Hot & Crispy, 3 strips, Medium Fries & a chilled Pepsi Black",
+        "categories": "STAY_HOME",
+        "price": 419.05,
+        "type": "Non veg",
+        "serve": "Serves 1",
+        "id": "413a7c8a-6dbc-45be-b65f-6846b729c333"
+    }
+]
