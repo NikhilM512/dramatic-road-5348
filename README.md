@@ -14,3 +14,5 @@ Group Members Names -
 2. Ankur Kumar Chauhan - Payment Gateway
 3. Guddu Tiwari - Backend & Authentication sys & Admin Panel.
 4. Nikhil Magar - Product Page, Cart & Search Functionalities.
+![image](https://user-images.githubusercontent.com/105916881/208610946-0f9e6bc7-e21d-45b7-841a-144a71a18fd2.png)
+
