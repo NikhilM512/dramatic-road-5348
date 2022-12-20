@@ -14,4 +14,24 @@ Group Members Names -
 2. Ankur Kumar Chauhan - Payment Gateway
 3. Guddu Tiwari - Backend & Authentication sys & Admin Panel.
 4. Nikhil Magar - Product Page, Cart & Search Functionalities.
-![kgf](https://user-images.githubusercontent.com/108039887/208611329-aaaa75b9-c7f8-4daf-b6a5-de6071c8df8f.png)
+
+### Tech Stack
+___
+
+* HTML 5
+* CSS 3
+* JavaScript
+* React JS
+* Redux JS 
+* Node JS
+* Express JS
+* MongoDB
+* React Icons
+* Git
+
+### Credits
+___
+* Images: [kfc.com](https://www.kfc.com/)
+* Content & Data: [kfc.com](https://www.kfc.com/)
+* Icons: [React Icons](https://react-icons.github.io/react-icons/)
+* References: [MDN Docs](https://developer.mozilla.org/en-US/ ) | [W3Schools](https://www.w3schools.com/)
