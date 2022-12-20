@@ -15,8 +15,6 @@ Group Members Names -
 3. Guddu Tiwari - Backend & Authentication sys & Admin Panel.
 4. Nikhil Magar - Product Page, Cart & Search Functionalities.
 
-<img src="https://i.ibb.co/Lk3V4c6/Screenshot-283.png" alt="Screenshot-283" border="0">
-
 ### Tech Stack
 ___
 
@@ -32,13 +30,14 @@ ___
 * Git
 
 ### Credits
-
-<img src="https://i.ibb.co/cYWzcJX/Screenshot-2022-12-20-132639.jpg" alt="Screenshot-2022-12-20-132639" border="0">
 ___
 * Images: [kfc.com](https://www.kfc.com/)
-<img src="https://i.ibb.co/h8nxX06/Screenshot-2022-12-20-132919.jpg" alt="Screenshot-2022-12-20-132919" border="0">
-
 * Content & Data: [kfc.com](https://www.kfc.com/)
-<img src="https://i.ibb.co/9V2TdMq/Screenshot-2022-12-20-133008.jpg" alt="Screenshot-2022-12-20-133008" border="0">
 * Icons: [React Icons](https://react-icons.github.io/react-icons/)
 * References: [MDN Docs](https://developer.mozilla.org/en-US/ ) | [W3Schools](https://www.w3schools.com/)
+0
+![Screenshot 2022-12-20 132800a](https://user-images.githubusercontent.com/105916881/208614397-daab9a1e-cabb-4b3b-98b0-3c4fb279
+![Screenshot 2022-12-20 131453](https://user-images.githubusercontent.com/105916881/208614464-c5cb51d3-6d3b-48a9-927f-0ba892bc683e.png)
+48f4.png)
+![Uploading Screenshot 2022-12-20 131755.png…]()
+![image](https://user-images.githubusercontent.com/105916881/208614581-232fd578-df98-4366-a042-98bc8209c1cb.png)
