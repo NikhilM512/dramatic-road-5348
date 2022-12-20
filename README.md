@@ -15,6 +15,8 @@ Group Members Names -
 3. Guddu Tiwari - Backend & Authentication sys & Admin Panel.
 4. Nikhil Magar - Product Page, Cart & Search Functionalities.
 
+<img src="https://i.ibb.co/Lk3V4c6/Screenshot-283.png" alt="Screenshot-283" border="0">
+
 ### Tech Stack
 ___
 
@@ -30,8 +32,13 @@ ___
 * Git
 
 ### Credits
+
+<img src="https://i.ibb.co/cYWzcJX/Screenshot-2022-12-20-132639.jpg" alt="Screenshot-2022-12-20-132639" border="0">
 ___
 * Images: [kfc.com](https://www.kfc.com/)
+<img src="https://i.ibb.co/h8nxX06/Screenshot-2022-12-20-132919.jpg" alt="Screenshot-2022-12-20-132919" border="0">
+
 * Content & Data: [kfc.com](https://www.kfc.com/)
+<img src="https://i.ibb.co/9V2TdMq/Screenshot-2022-12-20-133008.jpg" alt="Screenshot-2022-12-20-133008" border="0">
 * Icons: [React Icons](https://react-icons.github.io/react-icons/)
 * References: [MDN Docs](https://developer.mozilla.org/en-US/ ) | [W3Schools](https://www.w3schools.com/)
