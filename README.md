@@ -1,12 +1,16 @@
 This is our Construct week project on NEM-111 batch.
 
 Project Code - dramatic-road-5348
+
 Project Name - KGF Restaurant ( Clone of KFC Website)
+
 Objective of the Project - Objective of our project is give seamless experience  and provide as fast as fast end to end flow to the user & Admoin. 
 Description  - This a clone of popular KFC (Kentucky Fried Chicken) website which is an American fast food restaurant chain Kentucky, 
                that specializes in fried chicken. We are coverted KFC to KGF (King of Good Food) have a similar food 
-               restaurant we app.         
+               restaurant we app.
+               
 Team Leader  - Nikhil Magar
+
 Duration     - 5 Days
 
 Group Members Names -
@@ -35,7 +39,9 @@ ___
 * Content & Data: [kfc.com](https://www.kfc.com/)
 * Icons: [React Icons](https://react-icons.github.io/react-icons/)
 * References: [MDN Docs](https://developer.mozilla.org/en-US/ ) | [W3Schools](https://www.w3schools.com/)
-0
+
+-------------------------------------------- Content of website -------------------------------------------
+
 <img src="https://i.ibb.co/MkgmTDD/Whats-App-Image-2022-12-20-at-14-12-04.jpg" alt="Whats-App-Image-2022-12-20-at-14-12-04" border="0">
 ![Screenshot 2022-12-20 132800a](https://user-images.githubusercontent.com/105916881/208614397-daab9a1e-cabb-4b3b-98b0-3c4fb279
 
