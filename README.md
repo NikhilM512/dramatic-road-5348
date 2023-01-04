@@ -40,7 +40,9 @@ ___
 * Icons: [React Icons](https://react-icons.github.io/react-icons/)
 * References: [MDN Docs](https://developer.mozilla.org/en-US/ ) | [W3Schools](https://www.w3schools.com/)
 
--------------------------------------------- Content of website -------------------------------------------
+------------------------------------------------- ### Content of website ------------------------------------------------------------
+___
+
 
 <img src="https://i.ibb.co/MkgmTDD/Whats-App-Image-2022-12-20-at-14-12-04.jpg" alt="Whats-App-Image-2022-12-20-at-14-12-04" border="0">
 ![Screenshot 2022-12-20 132800a](https://user-images.githubusercontent.com/105916881/208614397-daab9a1e-cabb-4b3b-98b0-3c4fb279
