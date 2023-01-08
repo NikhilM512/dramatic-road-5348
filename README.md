@@ -11,7 +11,7 @@ Description  - This a clone of popular KFC (Kentucky Fried Chicken) website whic
                
 Team Leader  - Nikhil Magar
 
-Duration     - 5 Days
+Duration     - 4 Days
 
 Group Members Names -
 1. Suraj Kokane - HomePage
