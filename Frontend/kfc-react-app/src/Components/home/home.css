@@ -21,7 +21,6 @@
     width: 100%;
     background-color: rgb(248,247,245);
     /* border: 1px solid goldenrod; */
-    
 }
 
 .bandImg{
@@ -83,7 +82,6 @@
         margin: auto;
         height: 90px;
         justify-content: center;
-       
     }
 }
 @media only screen and (max-width: 859px) {

@@ -76,7 +76,7 @@ export const AddProduct = () => {
                             <option value='Veg'>Veg</option>
                         </Select>
                     </Flex>
-                    <Flex className={style.sectionAA1}>
+                    <Flex className={style.sectionAA1} alignItems="center">
                         <label><input type="text" ref={inpPrice} required placeholder="Enter price" /> INR</label>
                         <label><input type="text" ref={inpDiscount} required placeholder="Enter Discount" /> %</label>
                     </Flex>

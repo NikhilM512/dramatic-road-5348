@@ -3,20 +3,29 @@ import React from 'react';
 import { Carousels } from "../carousels/Carousels";
 import { MenuCards } from "../MenuPageComponents/MenuCard";
 import Offer from "../home_footer/Offer";
-import { Button } from '../main_button/Button';
+// import { Button } from '../main_button/Button';
 import { useNavigate } from "react-router-dom";
+import { useSelector } from "react-redux";
+import { Button, HStack, Text } from "@chakra-ui/react";
 
 const Home = () => {
+
+  const Auth = useSelector((store) => store.auth.isAuth);
+  console.log(Auth)
     const navigate= useNavigate()
   return (
     <>
-      <div className="black">
+     <HStack h="77px" bg="black" color="white" display="flex" fontSize={[12,13,16,20]} justifyContent="center" alignItems="center">
+                <Text mr="2%">LET'S ORDER FOR DELIVERY, PICK UP, OR DINE-IN</Text>
+                <Button onClick={() => { navigate('/menu') }} borderRadius="44px" ml="7px" bg="red" fontSize={[12,13,16,20]} _hover={{backgroundColor:"red"}}>Start Order</Button>
+      </HStack>
+      {/* <div className="black">
         <b>LET'S ORDER FOR DELIVERY, PICK UP, OR DINE-IN</b>
 
         <Button onClick={() => {
           navigate('/menu')
         }}>Start Order</Button>
-      </div>
+      </div> */}
 
       <div className="slider">
         <Carousels
@@ -30,7 +39,7 @@ const Home = () => {
 
       <div className="userDiv">
         <img className="bandImg" src="./band.png" alt="" />
-        <h1 className="welcome_text">
+        <h1 className="welcome_text" style={{marginBottom:"2%"}}>
           WELCOME TO KING OF GOOD FOOD
         </h1>
       </div>

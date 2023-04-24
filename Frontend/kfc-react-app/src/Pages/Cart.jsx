@@ -1,7 +1,9 @@
 import { Box, Button, Flex, Grid, Heading, HStack, Icon, Image, Text, VStack } from '@chakra-ui/react'
 import React, { useEffect, useState } from 'react'
 import { AiFillMinusCircle, AiFillPlusCircle } from 'react-icons/ai'
+import { useDispatch } from 'react-redux'
 import { NavLink, useNavigate } from 'react-router-dom'
+import { setFinalCartItems, setFinalCartPrice } from '../Redux/Cart/action'
 
 const Cart = () => {
 
@@ -19,6 +21,9 @@ const Cart = () => {
   const [discountBtnDisplay, setdiscountBtnDisplay] = useState(false)
   const [discountBtnBgColor, setdiscountBtnBgColor] = useState("red")
 
+  const dispatch=useDispatch();
+
+  const navigate = useNavigate()
 
   const fetchCartData = () => {
     fetch("https://creepy-fawn-purse.cyclic.app/api/cart").then((res) => {
@@ -26,6 +31,7 @@ const Cart = () => {
     }).then((res) => {
       setCartData(res)
       setTotalItems(res.length)
+      dispatch(setFinalCartItems(res.length))
       setCartData(res)
       Calculations()
     }).catch((err) => {
@@ -95,7 +101,7 @@ const Cart = () => {
     console.log(e)
   }
 
-  const navigate = useNavigate()
+
 
   const Calculations = () => {
     let price = 0;
@@ -103,10 +109,16 @@ const Cart = () => {
       price += ((+cartData[i].price) * (cartData[i].qty))
     }
     let Gst = price * 0.18;
+    if(cartData.length){
+      setRH("37.00")
+    }else{
+      setRH("00")
+    }
     let finalPrice = price + Gst + (+RH) + (+donation) - discount
     setSubtotal(price.toFixed(2))
     setGST(Gst.toFixed(2))
     setFinal(finalPrice.toFixed(2))
+    dispatch(setFinalCartPrice(finalPrice.toFixed(0)));
   }
 
   const reduceDiscount = () => {
@@ -126,6 +138,10 @@ const Cart = () => {
 
   return (
     <>
+     <HStack h="77px" bg="black" color="white" display="flex" fontSize={[12,13,16,20]} justifyContent="center" alignItems="center">
+                <Text mr="2%">LET'S ORDER FOR DELIVERY, PICK UP, OR DINE-IN</Text>
+                <Button onClick={() => { navigate('/menu') }} borderRadius="44px" ml="7px" bg="red" fontSize={[12,13,14,15]} _hover={{backgroundColor:"red"}}>Start Order</Button>
+      </HStack>
       <Grid
         mb="2%"
         ml="5%"
@@ -153,8 +169,8 @@ const Cart = () => {
               </HStack>
               <Flex flexDirection={["column", "column", "column", "column"]} w="40%" h="111px" justify="space-around">
                 <Flex flexDirection={["row", "row", "row", "row"]} w="100%" justifyContent="center" margin="auto"  >
-                  <Button disabled={e.qty <= 1} borderRadius="44%" bg="transparent" onClick={() => decreaseQty(e)}>
-                    <Icon disabled={e.qty <= 1} _hover={{ cursor: "pointer" }} as={AiFillMinusCircle} boxSize={[5, 6, 7, 8]} ></Icon>
+                  <Button isDisabled={e.qty <= 1} borderRadius="44%" bg="transparent" onClick={() => decreaseQty(e)}>
+                    <Icon _hover={{ cursor: "pointer" }} as={AiFillMinusCircle} boxSize={[5, 6, 7, 8]} ></Icon>
                   </Button>
                   <Text mt={"2%"}>{e.qty}</Text>
                   <Button borderRadius="44%" bg="transparent">

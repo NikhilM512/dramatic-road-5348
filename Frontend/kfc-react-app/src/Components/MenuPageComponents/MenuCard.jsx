@@ -7,7 +7,7 @@ export const MenuCards = ({ img, title }) => {
 
             <Link className="link" to="/menu">
         <img className="cards_img" src={img} alt="" />
-        <h4 className="menu_title">{ title}</h4>
+        <h4 className="menu_title">{title}</h4>
             </Link>
 
         </div>

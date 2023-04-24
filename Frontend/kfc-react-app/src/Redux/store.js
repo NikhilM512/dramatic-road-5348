@@ -1,3 +1,4 @@
+
 import {
   legacy_createStore,
   combineReducers,
@@ -7,10 +8,12 @@ import {
 import thunk from "redux-thunk";
 import { productReducer } from "./Products/product.reducer";
 import { authReducer } from "./Auth/auth.reducer";
+import { cartReducer } from "./Cart/cart.reducer";
 
 const rootReducer = combineReducers({
   product: productReducer,
   auth: authReducer,
+  cart: cartReducer
 });
 
 const createComposer= window.__REDUX_DEVTOOLS_EXTENSION_COMPOSE__ || compose;

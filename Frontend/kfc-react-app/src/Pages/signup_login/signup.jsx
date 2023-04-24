@@ -26,10 +26,10 @@ const SignUp = () => {
     if (data) {
         console.log(data);
       alert(data.message);
-      const timer = setTimeout(() => {
+      // const timer = setTimeout(() => {
         navigate("/login");
-      }, 2000);
-      return () => clearTimeout(timer);
+      // }, 2000);
+      // return () => clearTimeout(timer);
     }
     console.log("data:", data);
   }

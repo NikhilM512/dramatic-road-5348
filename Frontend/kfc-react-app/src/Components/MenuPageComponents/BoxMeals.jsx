@@ -1,26 +1,23 @@
 
-import { Box, Button, Heading, HStack, Icon, Image, SimpleGrid, Text, useToast, VStack } from '@chakra-ui/react'
-import React, { useEffect, useState } from 'react'
+
+import { Box, Heading, Image, SimpleGrid } from '@chakra-ui/react'
+import React, { useEffect } from 'react'
 import { useDispatch, useSelector } from 'react-redux'
 import { fetchProductData } from '../../Redux/Products/product.action'
 import {SingleMenu} from '../SingleMenu/SingleMenu'
 
-const BoxMeals= ({ title, endPoint, menuName }) => {
+const BoxMeals= ({ data, title, endPoint, menuName }) => {
 
-    const data = useSelector((store) => { return store.product.BOX_MEALS_Data})
+    // const data = useSelector((store) => { return store.product.BOX_MEALS_Data})
     const isLoading = useSelector((store) => { return store.product.isLoading })
     const isError = useSelector((store) => { return store.product.isError })
     const errorMessage = useSelector((store) => { return store.product.errorMessage })
 
     const dispatch = useDispatch();
-    const [qty, setQty] = useState(1)
-    const [btnsDisplay, setBtnsDisplay] = useState("none");
-    const [addToCartDisplay, setAddToCartDisplay] = useState("block");
-    const toast = useToast()
 
-    useEffect(() => {
-        (fetchProductData(`https://creepy-fawn-purse.cyclic.app/api/product/${endPoint}`,dispatch,`GET_${menuName}_DATA_SUCCESS`))
-    }, [title, menuName])
+    // useEffect(() => {
+    //     (fetchProductData(`https://creepy-fawn-purse.cyclic.app/api/product/${endPoint}`,dispatch,`GET_${menuName}_DATA_SUCCESS`))
+    // }, [title, menuName])
 
 
     if (isLoading) {
@@ -36,7 +33,7 @@ const BoxMeals= ({ title, endPoint, menuName }) => {
 
     return (
         <Box
-            id="ExclusiveDeal-sec"
+            id="BoxMeals-sec"
             w="100%"
             borderRadius="10px"
             bg="blackAlpha.200"

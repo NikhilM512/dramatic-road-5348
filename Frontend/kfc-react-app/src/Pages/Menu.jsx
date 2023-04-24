@@ -1,4 +1,4 @@
-import { Box, Button, Grid, Heading, HStack, Icon, Image, Input, SimpleGrid, Text, VStack } from "@chakra-ui/react"
+import { Box, Button, Grid, Heading, HStack, Input, SimpleGrid, Text, VStack } from "@chakra-ui/react"
 import {SearchIcon} from "@chakra-ui/icons"
 import { useEffect, useState } from "react"
 import ExclusiveDeals from "../Components/MenuPageComponents/ExclusiveDeals"
@@ -11,9 +11,9 @@ import Burgers from "../Components/MenuPageComponents/Burgers"
 import StayHomeSpecials from "../Components/MenuPageComponents/StayHomeSpecials"
 import Snacks from "../Components/MenuPageComponents/Snacks"
 import NewLaunch from "../Components/MenuPageComponents/NewLaunch"
-// import {fetchProductData} from "../Redux/Product/product.action.js"
-import { AiFillMinusCircle, AiFillPlusCircle } from "react-icons/ai"
 import { fetchProductData } from "../Redux/Products/product.action"
+import { SingleMenu } from "../Components/SingleMenu/SingleMenu"
+import { useNavigate } from "react-router-dom"
 
 export const Menu=()=>{
 
@@ -26,8 +26,23 @@ export const Menu=()=>{
     const [btnsDisplay,setBtnsDisplay]=useState("none");
     const [addToCartDisplay,setAddToCartDisplay]=useState("block");
 
+    const [exclusiveDealsData,setExclusiveDealsData]=useState([]);
+    const [chickenBucketData,setChickenBucketData]=useState([]);
+    const [newLaunchData,setNewLaunchData]=useState([]);
+    const [biryaniBucketsData,setBiryaniBucketsData]=useState([]);
+    const [boxMealsData,setBoxMealsData]=useState([]);
+    // const [boxMealsData,setBoxMealsData]=useState([]);
+    const [burgersData,setBurgersData]=useState([]);
+    const [stayHomeSpecialsData,setStayHomeSpecialsData]=useState([]);
+    const [snacksData,setsnacksData]=useState([]);
+    const [beverages,setBeveragesData]=useState([]);
+
     const allData=useSelector((store)=>{return store.product.ALLPRODUCT_Data})
     const dispatch=useDispatch();
+
+    const navigate=useNavigate();
+
+    
     const searchMenus=(e)=>{
         let q=e.target.value;
         if(!q){
@@ -68,14 +83,39 @@ export const Menu=()=>{
     }
 
     useEffect(()=>{
+
+        let cat1Data=allData?.filter((e)=>e._id=="639ffa57b2398a35c8df9a69");
+        setExclusiveDealsData(cat1Data);
+        let cat2Data=allData?.filter((e)=>e.categories=="CHICKEN");
+        setChickenBucketData(cat2Data);
+        let cat3Data=allData?.filter((e)=>e.categories=="NEWLUNCH");
+        setNewLaunchData(cat3Data);
+        let cat4Data=allData?.filter((e)=>e.categories=="Biryani_Buckets");
+        setBiryaniBucketsData(cat4Data);
+        let cat5Data=allData?.filter((e)=>e.categories=="BOX_MEALS");
+        setBoxMealsData(cat5Data);
+        let cat6Data=allData?.filter((e)=>e.categories=="BURGERS");
+        setBurgersData(cat6Data);
+        let cat7Data=allData?.filter((e)=>e.categories=="STAY_HOME");
+        setStayHomeSpecialsData(cat7Data);
+        let cat8Data=allData?.filter((e)=>e.categories=="SNACKS");
+        setsnacksData(cat8Data);
+        let cat9Data=allData?.filter((e)=>e.categories=="BEVERAGES");
+        setBeveragesData(cat9Data);
+
+    },[allData])
+
+    console.log(allData,newLaunchData,biryaniBucketsData,boxMealsData)
+
+    useEffect(()=>{
         (fetchProductData("https://creepy-fawn-purse.cyclic.app/api/product",dispatch,"GET_ALLPRODUCT_DATA_SUCCESS"))
     },[])
 
     return(
-        <Box bg="white" onClick={hideResults}>
-            <HStack h="77px" bg="black" color="white" display="flex" fontSize={[12,13,14,15]} justifyContent="center" alignItems="center">
+        <Box bg="white" onClick={hideResults} w="100%" >
+            <HStack h="77px" bg="black" color="white" display="flex" fontSize={[12,13,16,20]} justifyContent="center" alignItems="center">
                 <Text mr="2%">LET'S ORDER FOR DELIVERY, PICK UP, OR DINE-IN</Text>
-                <Button borderRadius="44px" ml="7px" bg="red" fontSize={[12,13,14,15]} _hover={{backgroundColor:"red"}}>Start Order</Button>
+                <Button onClick={() => { navigate('/menu') }} borderRadius="44px" ml="7px" bg="red" fontSize={[12,13,14,15]} _hover={{backgroundColor:"red"}}>Start Order</Button>
             </HStack>
             <Box display="flex" w="100%" >
                  <Box position="sticky" left="0" backgroundColor="white" w={["35%","30%","25%","25%"]} color="black">   
@@ -161,94 +201,9 @@ export const Menu=()=>{
                             templateRows="auto">
                             {searchedData?.map((e)=>{
                             return(
-                                <Box 
-                                    key={e._id}
-                                    boxShadow="rgba(0, 0, 0, 0.16) 0px 1px 4px" 
-                                    textAlign='start' 
-                                    margin="5%" 
-                                    borderRadius="5px">
-                                    <Image 
-                                        src={e.image} 
-                                        borderRadius="5px 5px 0px 0px">
-                                    </Image>
-                                    <VStack 
-                                        pb="5%" 
-                                        w="100%" 
-                                        pl="5%" 
-                                        pr="3%" 
-                                        align="space-around">
-                                        <Heading 
-                                            w="100%" 
-                                            mt="3%" 
-                                            size="sm" 
-                                            fontWeight="semibold">
-                                            {e.title}
-                                        </Heading>
-                                        <HStack 
-                                            w="100%"  
-                                            fontSize={12} 
-                                            color="gray.600" 
-                                            fontWeight="semibold">
-                                                <Image 
-                                                    src={e.type==="Non veg"?
-                                                    "https://online.kfc.co.in/static/media/Non_veg_dot_Icon.d975d1f9.svg":
-                                                    "https://online.kfc.co.in/static/media/Veg_dot_Icon.d1a3902d.svg"}>
-                                                </Image>
-                                                <Text 
-                                                    pr="5%">
-                                                    {e.type}
-                                                </Text>
-                                                <ul>
-                                                    <li>
-                                                        <Text pl="-2%">{e.serve?e.serve:"Serves 2-3"}</Text>
-                                                    </li>
-                                                </ul>
-                                        </HStack >
-                                        <HStack 
-                                            fontSize={15} 
-                                            w="100%" 
-                                            fontWeight="semibold">
-                                                <Text 
-                                                    as="del" 
-                                                    color="red">
-                                                    ₹{(+(e.price)+(+(e.price)*0.15)).toFixed(2)}
-                                                </Text>
-                                                <Text 
-                                                    pl="5%" 
-                                                    color="green">
-                                                    ₹{e.price}
-                                                </Text>
-                                        </HStack>
-                                        <Text 
-                                            w="100%" 
-                                            pb="3%"  
-                                            fontSize={14} 
-                                            color="gray.500" 
-                                            fontWeight="500">
-                                            {e.desc}
-                                        </Text>
-                                        <Button 
-                                            onClick={ShowBtns}
-                                            display={addToCartDisplay}
-                                            w={["100px","111px","122px","120px"]} 
-                                            _hover={{backgroundColor:"red"}} 
-                                            borderRadius="17px" 
-                                            fontSize="13px" 
-                                            color="white" 
-                                            h="33px" 
-                                            bg="red">
-                                            Add to Cart 
-                                        </Button>
-                                        <HStack 
-                                            display={btnsDisplay}
-                                            w={["100px","111px","122px","120px"]}
-                                            h="33px" >
-                                                <Icon _hover={{cursor:"pointer"}} as={AiFillMinusCircle} boxSize={[5,6,7,8]}></Icon>
-                                                <Text>1</Text>
-                                                <Icon _hover={{cursor:"pointer"}} as={AiFillPlusCircle} boxSize={[5,6,7,8]}></Icon>
-                                        </HStack>
-                                    </VStack >
-                                </Box>
+                                <>
+                                <SingleMenu key={e._id} e={e} id={e._id}></SingleMenu>
+                                </>
                                 )})}
                         </SimpleGrid>
                         </Box>
@@ -256,48 +211,57 @@ export const Menu=()=>{
                     <VStack display={menuSectionDisplay}>
                         <ExclusiveDeals 
                             title="EXCLUSIVE DEAL" 
-                            endPoint="/search?q=6%20pc%20Hot%20&%20Crispy%20Chicken"
-                            menuName="EXCLUSIVE_DEAL">
+                            endPoint="search?q=6%20pc%20Hot%20&%20Crispy%20Chicken"
+                            menuName="EXCLUSIVE_DEAL"
+                            data={exclusiveDealsData}>
                         </ExclusiveDeals> 
                         <ChickenBucket
                             title="CHICKEN BUCKETS" 
                             endPoint="?categories=CHICKEN"
-                            menuName="CHICKEN_BUCKETS">
+                            menuName="CHICKEN_BUCKETS"
+                            data={chickenBucketData}>
                         </ChickenBucket>
                         <NewLaunch
                             title="NEW LAUNCH" 
                             endPoint="?categories=NEWLUNCH"
-                            menuName="NEW_LAUNCH">
+                            menuName="NEW_LAUNCH"
+                            data={newLaunchData}>
                         </NewLaunch>
                         <BiryaniBuckets
                             title="BIRYANI BUCKETS" 
                             endPoint="?categories=Biryani_Buckets"
-                            menuName="BIRYANI_BUCKETS">
+                            menuName="BIRYANI_BUCKETS"
+                            data={biryaniBucketsData}>
                         </BiryaniBuckets>
                         <BoxMeals
                             title="BOX MEALS" 
                             endPoint="?categories=BOX_MEALS"
-                            menuName="BOX_MEALS">
+                            menuName="BOX_MEALS"
+                            data={boxMealsData}>
                         </BoxMeals>
                         <Burgers
                             title="BURGERS" 
                             endPoint="?categories=BURGERS"
-                            menuName="BURGERS">
+                            menuName="BURGERS"
+                            data={burgersData}>
                         </Burgers>
                         <StayHomeSpecials
                             title="STAY HOME SPECIALS" 
                             endPoint="?categories=STAY_HOME"
-                            menuName="STAY_HOME_SPECIALS">
+                            menuName="STAY_HOME_SPECIALS"
+                            data={stayHomeSpecialsData}>
                         </StayHomeSpecials>
                         <Snacks
                             title="SNACKS" 
                             endPoint="?categories=SNACKS"
-                            menuName="SNACKS">
+                            menuName="SNACKS"
+                            data={snacksData}>
                         </Snacks>
                         <Beverages
                             title="BEVERAGES" 
                             endPoint="?categories=BEVERAGES"
-                            menuName="BEVERAGES">
+                            menuName="BEVERAGES"
+                            data={beverages}>
                         </Beverages>
                     </VStack>
                  </Box> 

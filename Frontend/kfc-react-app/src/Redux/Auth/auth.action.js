@@ -3,7 +3,7 @@ import { LOGIN_ERROR, LOGIN_REQUEST, LOGIN_SUCCESS, LOGOUT, ADMINLOGIN } from ".
 
 export const login = (creds) => async (dispatch) => {
   dispatch({ type: LOGIN_REQUEST })
-  console.log(creds,"hii")
+  // console.log(creds,"hii")
   try {
     const response = await fetch("https://creepy-fawn-purse.cyclic.app/auth/singleuser", {
       method: "POST",
@@ -13,17 +13,21 @@ export const login = (creds) => async (dispatch) => {
       body: JSON.stringify(creds),
     });
     const data = await response.json();
-    if(data.mobile==="7800142610"){
+    // console.log(data)
+    if(data.mobile==="0123456789"){
       dispatch({type: ADMINLOGIN, payload:data});
     }
-    dispatch({ type: LOGIN_SUCCESS, payload: data })
+    alert("Congratulations..!,Login Successfull...!")
+      dispatch({ type: LOGIN_SUCCESS, payload: data })
       // console.log(response.data)
-      return data;
+      // return data;
      
   }
   catch (e) {
+      alert("Something Went Wrong, Please try again later...")
       dispatch({ type: LOGIN_ERROR, payload: e.message })
       console.log(e)
+     
   }
 }
 

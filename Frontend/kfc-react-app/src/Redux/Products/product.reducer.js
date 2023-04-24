@@ -1,3 +1,4 @@
+
 import { GET_ALLPRODUCT_DATA_SUCCESS, 
   GET_BEVERAGES_DATA_SUCCESS, 
   GET_BIRYANI_BUCKETS_DATA_SUCCESS, 
@@ -27,7 +28,6 @@ const initialState={
 }
 
 export const productReducer=(state=initialState,{type,payload})=>{
-  // console.log(type)
   switch (type){
       case GET_ALLPRODUCT_DATA_SUCCESS:
       return({...state,ALLPRODUCT_Data:payload,isLoading:false})

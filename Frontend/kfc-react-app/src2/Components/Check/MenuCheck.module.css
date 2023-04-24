@@ -1,0 +1,38 @@
+.menumain{
+    display: grid;
+    grid-template-columns: auto auto;
+    width: 90%;
+    margin-left: auto;
+    gap:60px;
+    justify-content: space-around;
+    margin-top: 100px;
+    margin-bottom: 70px;
+}
+
+.fsearchbox{
+    width:80%;
+    margin: auto;
+    margin-top: 70px;
+    margin-bottom: 70px;
+}
+.innersearch{
+    display: grid;
+    grid-template-columns: repeat(3,1fr)
+}
+
+@media all and (max-width:780px){
+    .menumain{
+        display: grid;
+        grid-template-columns: auto;
+    }
+
+    .fsearchbox{
+        display: inline;
+        
+    }
+    .innersearch{
+        display: inline;
+        border: 1px solid blue;
+    }
+
+}

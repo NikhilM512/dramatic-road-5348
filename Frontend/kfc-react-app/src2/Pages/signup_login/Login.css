@@ -1,0 +1,147 @@
+.outerSection{
+    background-color: #F8F7F5;
+    width: 100%;
+    height: 85vh;
+    padding-top: 20px;
+  }
+  .loginSection {
+    /* border: 1px solid black; */
+    /* width: 470px; */
+    height: max-content;
+    margin: auto;
+    margin-top: 18px;
+    border-radius: 15px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    margin-bottom: 80px;
+    background-color: white;
+  }
+  #loginSvgdiv {
+    /* border: 1px solid black; */
+    height: 35px;
+    border-radius: 12px;
+  }
+  .loginSvgdiv2 {
+    /* border: 1px solid red; */
+    width: 55px;
+    margin-left: 28px;
+    height: 35px;
+  }
+  #loginsvgStrip {
+    fill: #e4002b;
+    height: 25px;
+  }
+  .loginmainbox {
+    /* border: 1px solid red; */
+    width: 90%;
+    height: max-content;
+    padding: 20px;
+    text-align: left;
+    margin: auto;
+    margin-top: 30px;
+  }
+  #loginTitle {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+      Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  }
+  .loginFormdiv {
+    /* border: 1px solid black; */
+    margin-top: 20px;
+    height: fit-content;
+  }
+  .input-data {
+    height: 40px;
+    width: 100%;
+    position: relative;
+  }
+  .input-data > input {
+    height: 100%;
+    width: 100%;
+    border: none;
+    font-size: 17px;
+    border-bottom: 2px solid black;
+    outline: none;
+  }
+  .input-data > input:focus {
+    border-bottom: 2px solid crimson;
+    transition: all 0.3s ease;
+  }
+  .input-data > input:focus ~ label,
+  .input-data > input:valid ~ label {
+    transform: translateY(-20px);
+    font-size: 15px;
+    color: crimson;
+  }
+  .input-data > label {
+    position: absolute;
+    bottom: 10px;
+    left: 0;
+    color: black;
+    font-size: 20px;
+    font-weight: 600;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+      Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    pointer-events: none;
+    transition: all 0.3s ease;
+  }
+  #loginerrorBox {
+    /* border: 1px solid blue; */
+    height: 30px;
+    margin-bottom: 10px;
+  }
+  .loginterms {
+    /* border: 1px solid black; */
+    height: 50px;
+    text-align: justify;
+    padding: 5px;
+  }
+  .logintermtext {
+    font-size: 16px;
+    line-height: 20px;
+  }
+  .logintermlink {
+    text-decoration: underline;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  .loginBtndiv {
+    border: 1px solid black;
+    height: 50px;
+    width: 90%;
+    margin: auto;
+    margin-top: 50px;
+    border-radius: 25px;
+    margin-left: -.5%;
+  }
+  .loginBtndiv > input {
+    width: 100%;
+    height: 100%;
+    border-radius: 25px;
+    outline: none;
+    border: none;
+    font-size: 17px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+      Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    font-weight: bold;
+    background: #dbdbdb;
+    cursor: pointer;
+  }
+  .redirecttosignup {
+    /* border: 1px solid black; */
+    height: 35px;
+    width: 90%;
+    margin: auto;
+    margin-top: 9px;
+  }
+  .redirectsignuptext {
+    padding: 5px;
+    font-size: 17px;
+    margin-left: -2.5%;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+      Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  }
+  .redirectsignuplink {
+    text-decoration: underline;
+    font-weight: 500;
+    cursor: pointer;
+    color: black;
+  }

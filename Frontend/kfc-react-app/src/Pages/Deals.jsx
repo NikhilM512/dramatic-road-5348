@@ -15,18 +15,25 @@ export const Deals = () => {
 
     return (
         <Box w="100%" >
-            <HStack h="77px" w="100%" bg="black" color="white" display="flex" justifyContent="center" alignItems="center">
-                <Text fontWeight="bold">LET'S ORDER FOR DELIVERY, PICK UP, OR DINE-IN</Text>
-                <Button borderRadius="44px" _hover={{ backgroundColor: "red" }} ml="7px" bg="red">Start Order</Button>
+            <HStack h="77px" bg="black" color="white" display="flex" fontSize={[12,13,16,20]} justifyContent="center" alignItems="center">
+                <Text mr="2%">LET'S ORDER FOR DELIVERY, PICK UP, OR DINE-IN</Text>
+                <Button onClick={() => { Navi('/menu') }} borderRadius="44px" ml="7px" bg="red" fontSize={[12,13,14,15]} _hover={{backgroundColor:"red"}}>Start Order</Button>
             </HStack>
-            <Box
+            <Box w='100%'
                 style={{
                     backgroundImage: 'Url("https://i.postimg.cc/nh1trRv3/Licious-Login-Background-Img.jpg")', backgroundRepeat: "no-repeat",
                     backgroundSize: "cover"
                 }}
                 color='white'>
-                <Heading p="2%" >DEALS & OFFERS</Heading>
-                <Box w="100%" h="333px" backgroundImage={bgImage} backgroundSize="cover"  >
+                <Heading p="2%">DEALS & OFFERS</Heading>
+                <Box w="100%" h="333px" 
+                backgroundImage={bgImage}
+                 backgroundSize="cover"  
+                //  style={{
+                //     backgroundImage: `Url(${bgImage})`, backgroundRepeat: "no-repeat",
+                //     backgroundSize: "cover"
+                // }}
+                >
                 </Box>
             </Box>
             <Box w="70%" margin="auto">

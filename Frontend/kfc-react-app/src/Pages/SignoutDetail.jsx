@@ -4,7 +4,7 @@ import {Link, useNavigate} from "react-router-dom"
 
   
 
-const Detail = () => {
+const SignoutDetails = () => {
     
 const navigate=useNavigate()
 const logout=()=>{
@@ -77,4 +77,4 @@ const logout=()=>{
     )
 }
 
-export default Detail
+export default SignoutDetails

@@ -17,7 +17,8 @@ const Login = () => {
 
   async function loginUser(event) {
     event.preventDefault();
-    const response = await fetch("https://creepy-fawn-purse.cyclic.app/auth/login", {
+    try {
+      const response = await fetch("https://creepy-fawn-purse.cyclic.app/auth/login", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
@@ -27,28 +28,56 @@ const Login = () => {
       }),
     });
     const data = await response.json();
+    console.log(data)
     if (data) {
       const cred= {"id":data.token}
       dispatch(login(cred));
     }else {
       alert("Please check Email or Password")
     }
+    } catch (error) {
+      console.log(error)
+      alert("Please Signup first")
+      navigate("/signup")
+    }
+    
+    // if(Auth&&adminAuth){
+    //   navigate("/menu")
+    // }
+    // else if(Auth){
+    //   navigate("/menu")
+    // }
     // console.log("data:", data.token);
   }
 
- 
+  
 
   useEffect(()=>{
-    if(Auth&&adminAuth){
-      navigate("/admin")
-    }else if(Auth){
-      navigate("/menu")
-    }
+   if(Auth&&adminAuth){
+    navigate("/admin")
+  }
+  else if(Auth){
+    navigate("/menu")
+  }
   },[Auth,adminAuth])
 
   console.log(Auth,adminAuth);
 
-  
+  if(Auth&&adminAuth){
+    navigate("/menu")
+  }
+  else if(Auth){
+    navigate("/menu")
+  }
+
+  // const handleLogin=()=>{
+  //   if(Auth&&adminAuth){
+  //     navigate("/menu")
+  //   }
+  //   else if(Auth){
+  //     navigate("/menu")
+  //   }
+  // }
 
   return (
     <>
@@ -93,9 +122,11 @@ const Login = () => {
                 </p>
               </div>
               <div className="loginBtndiv">
-                <input type="submit" value="Log In" />
+                <input type="submit" value="Log In" 
+                // onClick={handleLogin}
+                />
               </div>
-              <div className="redirecttosignup">
+              <div className="redirecttosignup" style={{marginBottom:"5%"}}>
                 <p className="redirectsignuptext">
                   Don't have an account?
                   <Link to={"/signup"}>
